@@ -1,0 +1,431 @@
+# ============================================================================
+# Knowledge Nexus - Category Configuration
+# ============================================================================
+# Author: Dennis 'dnoice' Smaltz
+# Signature: Aim Twice, Shoot Once!
+# ============================================================================
+
+categories:
+  # --------------------------------------------------------------------------
+  # 01 - Theoretical Frontiers
+  # --------------------------------------------------------------------------
+  - id: "01-theoretical-frontiers"
+    name: "Theoretical Frontiers"
+    short_name: "Theory"
+    icon: "lightbulb"
+    description: "Exploring the boundaries of scientific understanding and theoretical frameworks"
+    color: "#6b5b95"
+    order: 1
+    subcategories:
+      - slug: "consciousness-hard-problem"
+        name: "The Hard Problem of Consciousness"
+      - slug: "dark-sector"
+        name: "Dark Sector Physics"
+      - slug: "emergence-mysteries"
+        name: "Emergence Mysteries"
+      - slug: "foundations-that-crack"
+        name: "Foundations That Crack"
+      - slug: "infinity-zero"
+        name: "Infinity and Zero"
+      - slug: "information-as-substrate"
+        name: "Information as Substrate"
+      - slug: "limits-of-computation"
+        name: "Limits of Computation"
+      - slug: "model-breakdowns"
+        name: "Model Breakdowns"
+      - slug: "origin-questions"
+        name: "Origin Questions"
+      - slug: "quantum-weirdness"
+        name: "Quantum Weirdness"
+      - slug: "time-problem"
+        name: "The Time Problem"
+
+  # --------------------------------------------------------------------------
+  # 02 - Materials & Fabrication
+  # --------------------------------------------------------------------------
+  - id: "02-materials-fabrication"
+    name: "Materials & Fabrication"
+    short_name: "Materials"
+    icon: "cube"
+    description: "Advanced materials science and manufacturing technologies"
+    color: "#88b04b"
+    order: 2
+    subcategories:
+      - slug: "ancient-materials-rediscovered"
+        name: "Ancient Materials Rediscovered"
+      - slug: "bio-integrated-materials"
+        name: "Bio-Integrated Materials"
+      - slug: "extreme-materials"
+        name: "Extreme Materials"
+      - slug: "fabrication-methods"
+        name: "Fabrication Methods"
+      - slug: "metamaterials"
+        name: "Metamaterials"
+      - slug: "nanomaterials"
+        name: "Nanomaterials"
+      - slug: "programmable-matter"
+        name: "Programmable Matter"
+      - slug: "self-organizing-systems"
+        name: "Self-Organizing Systems"
+      - slug: "smart-materials"
+        name: "Smart Materials"
+
+  # --------------------------------------------------------------------------
+  # 03 - Energy & Propulsion
+  # --------------------------------------------------------------------------
+  - id: "03-energy-propulsion"
+    name: "Energy & Propulsion"
+    short_name: "Energy"
+    icon: "zap"
+    description: "Power generation, storage, and advanced propulsion systems"
+    color: "#f7cac9"
+    order: 3
+    subcategories:
+      - slug: "exotic-propulsion"
+        name: "Exotic Propulsion"
+      - slug: "fusion-progress"
+        name: "Fusion Progress"
+      - slug: "grid-transformation"
+        name: "Grid Transformation"
+      - slug: "harvesting-ambient"
+        name: "Harvesting Ambient Energy"
+      - slug: "hydrogen-economy"
+        name: "Hydrogen Economy"
+      - slug: "nuclear-renaissance"
+        name: "Nuclear Renaissance"
+      - slug: "solar-advances"
+        name: "Solar Advances"
+      - slug: "storage-revolution"
+        name: "Storage Revolution"
+
+  # --------------------------------------------------------------------------
+  # 04 - Life Sciences
+  # --------------------------------------------------------------------------
+  - id: "04-life-sciences"
+    name: "Life Sciences"
+    short_name: "Life"
+    icon: "dna"
+    description: "Biology, genetics, and the science of living systems"
+    color: "#92a8d1"
+    order: 4
+    subcategories:
+      - slug: "aging-and-longevity"
+        name: "Aging and Longevity"
+      - slug: "cell-biology-frontiers"
+        name: "Cell Biology Frontiers"
+      - slug: "crispr-and-beyond"
+        name: "CRISPR and Beyond"
+      - slug: "de-extinction-ethics"
+        name: "De-Extinction Ethics"
+      - slug: "extremophiles"
+        name: "Extremophiles"
+      - slug: "immunology-advances"
+        name: "Immunology Advances"
+      - slug: "microbiome-universe"
+        name: "Microbiome Universe"
+      - slug: "origin-of-life"
+        name: "Origin of Life"
+      - slug: "proteomics-revolution"
+        name: "Proteomics Revolution"
+      - slug: "synthetic-biology"
+        name: "Synthetic Biology"
+
+  # --------------------------------------------------------------------------
+  # 05 - Mind & Cognition
+  # --------------------------------------------------------------------------
+  - id: "05-mind-cognition"
+    name: "Mind & Cognition"
+    short_name: "Mind"
+    icon: "brain"
+    description: "Neuroscience, psychology, and the study of consciousness"
+    color: "#955251"
+    order: 5
+    subcategories:
+      - slug: "altered-states"
+        name: "Altered States"
+      - slug: "artificial-minds"
+        name: "Artificial Minds"
+      - slug: "collective-intelligence"
+        name: "Collective Intelligence"
+      - slug: "consciousness-theories"
+        name: "Consciousness Theories"
+      - slug: "decision-making"
+        name: "Decision Making"
+      - slug: "embodied-cognition"
+        name: "Embodied Cognition"
+      - slug: "language-and-thought"
+        name: "Language and Thought"
+      - slug: "memory-mechanics"
+        name: "Memory Mechanics"
+      - slug: "neuroscience-frontiers"
+        name: "Neuroscience Frontiers"
+      - slug: "perception-hacking"
+        name: "Perception Hacking"
+
+  # --------------------------------------------------------------------------
+  # 06 - Earth Systems
+  # --------------------------------------------------------------------------
+  - id: "06-earth-systems"
+    name: "Earth Systems"
+    short_name: "Earth"
+    icon: "globe"
+    description: "Geology, climate science, and planetary processes"
+    color: "#b565a7"
+    order: 6
+    subcategories:
+      - slug: "atmospheric-science"
+        name: "Atmospheric Science"
+      - slug: "biogeochemical-cycles"
+        name: "Biogeochemical Cycles"
+      - slug: "climate-dynamics"
+        name: "Climate Dynamics"
+      - slug: "cryosphere"
+        name: "Cryosphere"
+      - slug: "deep-earth"
+        name: "Deep Earth"
+      - slug: "ecosystem-dynamics"
+        name: "Ecosystem Dynamics"
+      - slug: "hydrology"
+        name: "Hydrology"
+      - slug: "mass-extinctions"
+        name: "Mass Extinctions"
+      - slug: "ocean-systems"
+        name: "Ocean Systems"
+
+  # --------------------------------------------------------------------------
+  # 07 - Space & Cosmos
+  # --------------------------------------------------------------------------
+  - id: "07-space-cosmos"
+    name: "Space & Cosmos"
+    short_name: "Space"
+    icon: "star"
+    description: "Astronomy, cosmology, and space exploration"
+    color: "#009b77"
+    order: 7
+    subcategories:
+      - slug: "astrobiology"
+        name: "Astrobiology"
+      - slug: "cosmology-frontiers"
+        name: "Cosmology Frontiers"
+      - slug: "exoplanet-discoveries"
+        name: "Exoplanet Discoveries"
+      - slug: "gravitational-astronomy"
+        name: "Gravitational Astronomy"
+      - slug: "planetary-science"
+        name: "Planetary Science"
+      - slug: "seti-and-fermi"
+        name: "SETI and the Fermi Paradox"
+      - slug: "solar-system-exploration"
+        name: "Solar System Exploration"
+      - slug: "space-engineering"
+        name: "Space Engineering"
+      - slug: "stellar-evolution"
+        name: "Stellar Evolution"
+
+  # --------------------------------------------------------------------------
+  # 08 - Information & Security
+  # --------------------------------------------------------------------------
+  - id: "08-information-security"
+    name: "Information & Security"
+    short_name: "InfoSec"
+    icon: "shield"
+    description: "Cybersecurity, cryptography, and information theory"
+    color: "#dd4124"
+    order: 8
+    subcategories:
+      - slug: "adversarial-systems"
+        name: "Adversarial Systems"
+      - slug: "ai-safety"
+        name: "AI Safety"
+      - slug: "cryptography-frontiers"
+        name: "Cryptography Frontiers"
+      - slug: "distributed-systems"
+        name: "Distributed Systems"
+      - slug: "information-warfare"
+        name: "Information Warfare"
+      - slug: "network-science"
+        name: "Network Science"
+      - slug: "privacy-tech"
+        name: "Privacy Technology"
+      - slug: "quantum-computing"
+        name: "Quantum Computing"
+
+  # --------------------------------------------------------------------------
+  # 09 - Systems & Civilization
+  # --------------------------------------------------------------------------
+  - id: "09-systems-civilization"
+    name: "Systems & Civilization"
+    short_name: "Systems"
+    icon: "network"
+    description: "Complex systems, economics, and societal dynamics"
+    color: "#45b8ac"
+    order: 9
+    subcategories:
+      - slug: "collapse-dynamics"
+        name: "Collapse Dynamics"
+      - slug: "coordination-problems"
+        name: "Coordination Problems"
+      - slug: "demographic-shifts"
+        name: "Demographic Shifts"
+      - slug: "economic-heterodoxies"
+        name: "Economic Heterodoxies"
+      - slug: "governance-experiments"
+        name: "Governance Experiments"
+      - slug: "institutional-design"
+        name: "Institutional Design"
+      - slug: "megaproject-failures"
+        name: "Megaproject Failures"
+      - slug: "technology-adoption"
+        name: "Technology Adoption"
+      - slug: "urban-metabolism"
+        name: "Urban Metabolism"
+
+  # --------------------------------------------------------------------------
+  # 10 - Human Experience
+  # --------------------------------------------------------------------------
+  - id: "10-human-experience"
+    name: "Human Experience"
+    short_name: "Human"
+    icon: "heart"
+    description: "Art, culture, creativity, and the lived experience"
+    color: "#efc050"
+    order: 10
+    subcategories:
+      - slug: "aesthetics-theory"
+        name: "Aesthetics Theory"
+      - slug: "craft-mastery"
+        name: "Craft Mastery"
+      - slug: "creativity-research"
+        name: "Creativity Research"
+      - slug: "emotion-science"
+        name: "Emotion Science"
+      - slug: "flow-states"
+        name: "Flow States"
+      - slug: "narrative-structures"
+        name: "Narrative Structures"
+      - slug: "play-and-games"
+        name: "Play and Games"
+      - slug: "ritual-and-meaning"
+        name: "Ritual and Meaning"
+
+  # --------------------------------------------------------------------------
+  # 11 - Speculative Fringe
+  # --------------------------------------------------------------------------
+  - id: "11-speculative-fringe"
+    name: "Speculative Fringe"
+    short_name: "Fringe"
+    icon: "compass"
+    description: "Edge cases, unconventional theories, and intellectual exploration"
+    color: "#5b5ea6"
+    order: 11
+    subcategories:
+      - slug: "anomalistics"
+        name: "Anomalistics"
+      - slug: "future-speculation"
+        name: "Future Speculation"
+      - slug: "heterodox-physics"
+        name: "Heterodox Physics"
+      - slug: "philosophical-zombies"
+        name: "Philosophical Zombies"
+      - slug: "psi-research"
+        name: "Psi Research"
+      - slug: "simulation-hypothesis"
+        name: "Simulation Hypothesis"
+      - slug: "unconventional-cosmology"
+        name: "Unconventional Cosmology"
+
+  # --------------------------------------------------------------------------
+  # 12 - Applied Frontiers
+  # --------------------------------------------------------------------------
+  - id: "12-applied-frontiers"
+    name: "Applied Frontiers"
+    short_name: "Applied"
+    icon: "tool"
+    description: "Practical applications and emerging technologies"
+    color: "#9b2335"
+    order: 12
+    subcategories:
+      - slug: "biomimicry-lab"
+        name: "Biomimicry Lab"
+      - slug: "conservation-tech"
+        name: "Conservation Technology"
+      - slug: "medical-devices"
+        name: "Medical Devices"
+      - slug: "ocean-tech"
+        name: "Ocean Technology"
+      - slug: "precision-agriculture"
+        name: "Precision Agriculture"
+      - slug: "remediation-science"
+        name: "Remediation Science"
+      - slug: "robotics-automation"
+        name: "Robotics and Automation"
+      - slug: "sensing-revolution"
+        name: "Sensing Revolution"
+      - slug: "sustainable-design"
+        name: "Sustainable Design"
+
+  # --------------------------------------------------------------------------
+  # 13 - Meta-Learning
+  # --------------------------------------------------------------------------
+  - id: "13-meta-learning"
+    name: "Meta-Learning"
+    short_name: "Meta"
+    icon: "book-open"
+    description: "Learning how to learn, knowledge management, and metacognition"
+    color: "#dfcfbe"
+    order: 13
+    subcategories:
+      - slug: "bias-catalog"
+        name: "Bias Catalog"
+      - slug: "cognitive-tools"
+        name: "Cognitive Tools"
+      - slug: "deliberate-practice"
+        name: "Deliberate Practice"
+      - slug: "expertise-research"
+        name: "Expertise Research"
+      - slug: "knowledge-synthesis"
+        name: "Knowledge Synthesis"
+      - slug: "memory-techniques"
+        name: "Memory Techniques"
+      - slug: "note-systems"
+        name: "Note Systems"
+      - slug: "reading-strategies"
+        name: "Reading Strategies"
+
+  # --------------------------------------------------------------------------
+  # 14 - Nexus Points
+  # --------------------------------------------------------------------------
+  - id: "14-nexus-points"
+    name: "Nexus Points"
+    short_name: "Nexus"
+    icon: "link"
+    description: "Cross-disciplinary connections and synthesis of ideas"
+    color: "#55b4b0"
+    order: 14
+    subcategories:
+      - slug: "ancient-x-cutting-edge"
+        name: "Ancient x Cutting Edge"
+      - slug: "art-x-science"
+        name: "Art x Science"
+      - slug: "computation-x-physics"
+        name: "Computation x Physics"
+      - slug: "consciousness-x-computation"
+        name: "Consciousness x Computation"
+      - slug: "energy-x-ecology"
+        name: "Energy x Ecology"
+      - slug: "failure-x-discovery"
+        name: "Failure x Discovery"
+      - slug: "games-x-serious"
+        name: "Games x Serious"
+      - slug: "individual-x-collective"
+        name: "Individual x Collective"
+      - slug: "materials-x-medicine"
+        name: "Materials x Medicine"
+      - slug: "micro-x-macro"
+        name: "Micro x Macro"
+      - slug: "nature-x-engineering"
+        name: "Nature x Engineering"
+      - slug: "quantum-x-biology"
+        name: "Quantum x Biology"
+      - slug: "theory-x-practice"
+        name: "Theory x Practice"
