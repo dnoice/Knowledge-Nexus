@@ -1,0 +1,321 @@
+/**
+ * Base Styles
+ * ===========
+ * CSS reset and foundational styles for Knowledge Nexus.
+ *
+ * Author: Dennis 'dnoice' Smaltz
+ * Signature: Aim Twice, Shoot Once!
+ */
+
+/* =========================================================================
+   MODERN CSS RESET
+   Based on Andy Bell's Modern CSS Reset with customizations
+   ========================================================================= */
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Remove default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Prevent font size inflation */
+html {
+    -moz-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+    scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+    min-height: 100vh;
+    line-height: var(--line-height-normal);
+    font-family: var(--font-family-serif);
+    font-size: var(--font-size-base);
+    font-weight: var(--font-weight-normal);
+    color: var(--color-text-primary);
+    background-color: var(--color-bg-primary);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+/* Remove list styles on ul, ol elements */
+ul,
+ol {
+    list-style: none;
+}
+
+/* Set shorter line heights on headings and interactive elements */
+h1, h2, h3, h4, h5, h6,
+button,
+input,
+label {
+    line-height: var(--line-height-tight);
+}
+
+/* Balance text wrapping on headings */
+h1, h2, h3, h4, h5, h6 {
+    text-wrap: balance;
+}
+
+/* Improve paragraph readability */
+p {
+    text-wrap: pretty;
+    max-width: 75ch;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+    color: var(--color-link);
+    text-decoration-skip-ink: auto;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.15em;
+    transition: var(--transition-colors);
+}
+
+a:not([class]):hover {
+    color: var(--color-link-hover);
+}
+
+a:not([class]):visited {
+    color: var(--color-link-visited);
+}
+
+/* Make images easier to work with */
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+    color: inherit;
+}
+
+/* Make sure textareas without a rows attribute are not tiny */
+textarea:not([rows]) {
+    min-height: 10em;
+}
+
+/* Anything that has been anchored to should have extra scroll margin */
+:target {
+    scroll-margin-block: 5ex;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+    html:focus-within {
+        scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+/* =========================================================================
+   FOCUS STYLES
+   ========================================================================= */
+
+/* Remove default focus styles */
+:focus {
+    outline: none;
+}
+
+/* Custom focus-visible styles for keyboard navigation */
+:focus-visible {
+    outline: var(--ring-width) solid var(--ring-color);
+    outline-offset: var(--ring-offset);
+}
+
+/* Alternative focus style using box-shadow */
+.focus-ring:focus-visible {
+    outline: none;
+    box-shadow: var(--focus-ring);
+}
+
+/* =========================================================================
+   SELECTION STYLES
+   ========================================================================= */
+
+::selection {
+    background-color: var(--color-accent-gold);
+    color: var(--color-ink-900);
+}
+
+::-moz-selection {
+    background-color: var(--color-accent-gold);
+    color: var(--color-ink-900);
+}
+
+/* =========================================================================
+   SCROLLBAR STYLES
+   ========================================================================= */
+
+/* Webkit scrollbars */
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--color-parchment-400);
+    border-radius: var(--radius-full);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--color-ink-400);
+    border-radius: var(--radius-full);
+    border: 3px solid var(--color-parchment-400);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--color-ink-500);
+}
+
+::-webkit-scrollbar-corner {
+    background: var(--color-parchment-400);
+}
+
+/* Firefox scrollbars */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-ink-400) var(--color-parchment-400);
+}
+
+/* =========================================================================
+   UTILITY BASE CLASSES
+   ========================================================================= */
+
+/* Screen reader only */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+/* Not screen reader only - undo sr-only */
+.not-sr-only {
+    position: static;
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+    clip: auto;
+    white-space: normal;
+}
+
+/* Hidden */
+.hidden {
+    display: none !important;
+}
+
+/* Invisible but takes space */
+.invisible {
+    visibility: hidden;
+}
+
+/* Visible */
+.visible {
+    visibility: visible;
+}
+
+/* Prevent text selection */
+.select-none {
+    user-select: none;
+}
+
+/* Allow text selection */
+.select-text {
+    user-select: text;
+}
+
+/* Select all on click */
+.select-all {
+    user-select: all;
+}
+
+/* Pointer events */
+.pointer-events-none {
+    pointer-events: none;
+}
+
+.pointer-events-auto {
+    pointer-events: auto;
+}
+
+/* Cursor styles */
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.cursor-default {
+    cursor: default;
+}
+
+.cursor-not-allowed {
+    cursor: not-allowed;
+}
+
+/* =========================================================================
+   ROOT ELEMENT SETUP
+   ========================================================================= */
+
+#app,
+#root,
+.app-root {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* =========================================================================
+   SKIP LINK
+   ========================================================================= */
+
+.skip-link {
+    position: absolute;
+    top: -100%;
+    left: 0;
+    z-index: var(--z-max);
+    padding: var(--space-3) var(--space-4);
+    background: var(--color-ink-800);
+    color: var(--color-parchment-100);
+    font-weight: var(--font-weight-semibold);
+    text-decoration: none;
+    border-radius: 0 0 var(--radius-lg) 0;
+    transition: top var(--transition-fast);
+}
+
+.skip-link:focus {
+    top: 0;
+}

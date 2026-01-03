@@ -1,0 +1,494 @@
+/**
+ * Parchment Theme
+ * ===============
+ * Aged paper textures, ink stains, and scholarly effects.
+ *
+ * Author: Dennis 'dnoice' Smaltz
+ * Signature: Aim Twice, Shoot Once!
+ */
+
+/* =========================================================================
+   PARCHMENT BACKGROUNDS
+   ========================================================================= */
+
+/* Base parchment background with subtle texture */
+.parchment-bg {
+    background-color: var(--color-bg-primary);
+    background-image:
+        /* Subtle noise texture */
+        url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E"),
+        /* Gradient overlay */
+        linear-gradient(
+            135deg,
+            var(--color-parchment-200) 0%,
+            var(--color-parchment-300) 50%,
+            var(--color-parchment-200) 100%
+        );
+    background-blend-mode: soft-light, normal;
+}
+
+/* Light parchment variant */
+.parchment-light {
+    background-color: var(--color-parchment-100);
+    background-image:
+        radial-gradient(
+            ellipse at 30% 20%,
+            rgba(255, 253, 248, 0.8) 0%,
+            transparent 50%
+        ),
+        radial-gradient(
+            ellipse at 70% 80%,
+            rgba(248, 240, 227, 0.6) 0%,
+            transparent 40%
+        );
+}
+
+/* Aged parchment with wear marks */
+.parchment-aged {
+    background-color: var(--color-parchment-400);
+    background-image:
+        /* Corner darkening */
+        radial-gradient(
+            ellipse at 0% 0%,
+            rgba(107, 95, 71, 0.15) 0%,
+            transparent 50%
+        ),
+        radial-gradient(
+            ellipse at 100% 100%,
+            rgba(107, 95, 71, 0.15) 0%,
+            transparent 50%
+        ),
+        /* Age spots */
+        radial-gradient(
+            circle at 20% 30%,
+            rgba(139, 122, 90, 0.1) 0%,
+            transparent 10%
+        ),
+        radial-gradient(
+            circle at 80% 70%,
+            rgba(139, 122, 90, 0.1) 0%,
+            transparent 8%
+        ),
+        radial-gradient(
+            circle at 50% 90%,
+            rgba(139, 122, 90, 0.08) 0%,
+            transparent 12%
+        );
+}
+
+/* =========================================================================
+   PARCHMENT CARDS
+   ========================================================================= */
+
+.parchment-card {
+    background-color: var(--color-bg-elevated);
+    border: var(--border-width-thin) solid var(--color-border-light);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-parchment);
+    position: relative;
+    overflow: hidden;
+}
+
+/* Subtle top highlight */
+.parchment-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(
+        90deg,
+        transparent 0%,
+        rgba(255, 255, 255, 0.6) 20%,
+        rgba(255, 255, 255, 0.6) 80%,
+        transparent 100%
+    );
+    pointer-events: none;
+}
+
+/* Torn/rough edge effect */
+.parchment-card.torn-edge::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    right: 0;
+    height: 8px;
+    background: linear-gradient(
+        90deg,
+        transparent 0%,
+        var(--color-parchment-500) 2%,
+        transparent 4%,
+        var(--color-parchment-600) 8%,
+        transparent 10%,
+        var(--color-parchment-500) 14%,
+        transparent 16%,
+        var(--color-parchment-600) 20%,
+        transparent 22%,
+        var(--color-parchment-500) 26%,
+        transparent 28%
+    );
+    background-size: 50px 8px;
+    opacity: 0.3;
+    pointer-events: none;
+}
+
+/* Elevated card variant */
+.parchment-card.elevated {
+    box-shadow: var(--shadow-elevated);
+}
+
+/* Interactive card with hover */
+.parchment-card.interactive {
+    transition: transform var(--transition-normal),
+                box-shadow var(--transition-normal);
+}
+
+.parchment-card.interactive:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-xl);
+}
+
+/* =========================================================================
+   INK & STAIN EFFECTS
+   ========================================================================= */
+
+/* Ink stain decoration */
+.ink-stain {
+    position: relative;
+}
+
+.ink-stain::after {
+    content: '';
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 60px;
+    height: 60px;
+    background: radial-gradient(
+        ellipse at center,
+        rgba(44, 36, 22, 0.06) 0%,
+        rgba(44, 36, 22, 0.03) 40%,
+        transparent 70%
+    );
+    pointer-events: none;
+    transform: rotate(15deg);
+}
+
+/* Coffee ring stain */
+.coffee-stain {
+    position: relative;
+}
+
+.coffee-stain::before {
+    content: '';
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid rgba(139, 69, 19, 0.08);
+    pointer-events: none;
+}
+
+/* Wax seal decoration */
+.wax-seal {
+    position: relative;
+}
+
+.wax-seal::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    right: 20px;
+    width: 32px;
+    height: 32px;
+    background: var(--color-accent-burgundy);
+    border-radius: 50%;
+    box-shadow:
+        inset -2px -2px 4px rgba(0, 0, 0, 0.3),
+        inset 2px 2px 4px rgba(255, 255, 255, 0.1),
+        2px 2px 4px rgba(0, 0, 0, 0.2);
+    opacity: 0.9;
+}
+
+/* =========================================================================
+   DECORATIVE BORDERS
+   ========================================================================= */
+
+/* Ornate frame border */
+.ornate-frame {
+    border: var(--border-width-medium) solid var(--color-border-medium);
+    border-radius: var(--radius-lg);
+    padding: var(--space-6);
+    position: relative;
+}
+
+.ornate-frame::before,
+.ornate-frame::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border: 2px solid var(--color-accent-gold);
+}
+
+.ornate-frame::before {
+    top: 8px;
+    left: 8px;
+    border-right: none;
+    border-bottom: none;
+}
+
+.ornate-frame::after {
+    bottom: 8px;
+    right: 8px;
+    border-left: none;
+    border-top: none;
+}
+
+/* Double line border */
+.double-border {
+    border: var(--border-width-thin) solid var(--color-border-medium);
+    outline: var(--border-width-thin) solid var(--color-border-medium);
+    outline-offset: 3px;
+}
+
+/* =========================================================================
+   SCROLL & MANUSCRIPT EFFECTS
+   ========================================================================= */
+
+/* Scroll paper effect */
+.scroll-paper {
+    background: var(--color-parchment-200);
+    padding: var(--space-8);
+    position: relative;
+}
+
+.scroll-paper::before,
+.scroll-paper::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 20px;
+    background: linear-gradient(
+        to bottom,
+        var(--color-parchment-500),
+        var(--color-parchment-400)
+    );
+    box-shadow:
+        inset 0 2px 4px rgba(0, 0, 0, 0.1),
+        0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.scroll-paper::before {
+    top: 0;
+    border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+    transform: perspective(100px) rotateX(5deg);
+    transform-origin: bottom;
+}
+
+.scroll-paper::after {
+    bottom: 0;
+    border-radius: 0 0 var(--radius-lg) var(--radius-lg);
+    transform: perspective(100px) rotateX(-5deg);
+    transform-origin: top;
+}
+
+/* =========================================================================
+   RULED PAPER LINES
+   ========================================================================= */
+
+/* Horizontal ruled lines */
+.ruled-paper {
+    background-image: repeating-linear-gradient(
+        to bottom,
+        transparent 0px,
+        transparent 27px,
+        var(--color-parchment-500) 27px,
+        var(--color-parchment-500) 28px
+    );
+    background-size: 100% 28px;
+    background-position: 0 8px;
+    line-height: 28px;
+}
+
+/* Margin line */
+.ruled-paper.with-margin {
+    position: relative;
+}
+
+.ruled-paper.with-margin::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 40px;
+    width: 1px;
+    background: var(--color-accent-rust);
+    opacity: 0.3;
+}
+
+/* =========================================================================
+   CHAPTER & SECTION DECORATIONS
+   ========================================================================= */
+
+/* Chapter number decoration */
+.chapter-num {
+    font-family: var(--font-family-display);
+    font-size: var(--font-size-6xl);
+    font-weight: var(--font-weight-light);
+    color: var(--color-accent-rust);
+    opacity: 0.8;
+    line-height: 1;
+}
+
+/* Section divider */
+.section-divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-4);
+    margin: var(--space-8) 0;
+    color: var(--color-text-muted);
+}
+
+.section-divider::before,
+.section-divider::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: linear-gradient(
+        to right,
+        transparent,
+        var(--color-border-medium),
+        transparent
+    );
+}
+
+.section-divider svg {
+    width: 24px;
+    height: 24px;
+    opacity: 0.6;
+}
+
+/* =========================================================================
+   MANUSCRIPT INITIALS
+   ========================================================================= */
+
+/* Illuminated initial */
+.illuminated-initial {
+    float: left;
+    font-family: var(--font-family-display);
+    font-size: 5em;
+    line-height: 0.8;
+    padding: var(--space-2) var(--space-3) var(--space-2) 0;
+    color: var(--color-accent-rust);
+    text-shadow: 2px 2px 0 var(--color-accent-gold);
+}
+
+/* Boxed initial */
+.boxed-initial {
+    float: left;
+    font-family: var(--font-family-display);
+    font-size: 3em;
+    line-height: 1;
+    padding: var(--space-2);
+    margin: 0 var(--space-3) var(--space-2) 0;
+    background: var(--color-accent-rust);
+    color: var(--color-parchment-100);
+    border: 2px solid var(--color-accent-gold);
+}
+
+/* =========================================================================
+   RIBBON & BOOKMARK EFFECTS
+   ========================================================================= */
+
+/* Ribbon banner */
+.ribbon {
+    position: absolute;
+    top: -5px;
+    right: 15px;
+    width: 30px;
+    padding: var(--space-2) 0;
+    background: var(--color-accent-burgundy);
+    color: var(--color-parchment-100);
+    font-size: var(--font-size-xs);
+    text-align: center;
+    writing-mode: vertical-rl;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.ribbon::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    border: 15px solid var(--color-accent-burgundy);
+    border-bottom: 10px solid transparent;
+}
+
+/* Corner fold */
+.corner-fold {
+    position: relative;
+    overflow: hidden;
+}
+
+.corner-fold::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 30px 30px 0;
+    border-color: transparent var(--color-parchment-500) transparent transparent;
+}
+
+.corner-fold::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 30px 0 0 30px;
+    border-color: var(--color-bg-primary) transparent transparent transparent;
+}
+
+/* =========================================================================
+   SHADOW EFFECTS
+   ========================================================================= */
+
+/* Page curl shadow */
+.page-curl {
+    position: relative;
+}
+
+.page-curl::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    background: radial-gradient(
+        ellipse at bottom right,
+        rgba(0, 0, 0, 0.15) 0%,
+        transparent 70%
+    );
+    pointer-events: none;
+}
+
+/* Book spine shadow */
+.spine-shadow {
+    box-shadow:
+        inset 8px 0 16px -8px rgba(0, 0, 0, 0.15),
+        inset -2px 0 4px -2px rgba(255, 255, 255, 0.5);
+}

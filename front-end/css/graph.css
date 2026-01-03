@@ -1,0 +1,338 @@
+/**
+ * Knowledge Graph Styles
+ * ======================
+ * Styles for the D3.js knowledge graph visualization.
+ *
+ * Author: Dennis 'dnoice' Smaltz
+ * Signature: Aim Twice, Shoot Once!
+ */
+
+/* =========================================================================
+   GRAPH CONTAINER
+   ========================================================================= */
+
+.graph-container {
+    position: relative;
+    width: 100%;
+    height: calc(100vh - var(--size-header) - 200px);
+    min-height: 400px;
+    background: var(--color-bg-elevated);
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--color-border-light);
+    overflow: hidden;
+}
+
+.graph-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: var(--space-4);
+    margin-bottom: var(--space-4);
+}
+
+.graph-controls {
+    display: flex;
+    align-items: center;
+    gap: var(--space-4);
+}
+
+.graph-filter {
+    min-width: 200px;
+}
+
+.graph-zoom {
+    display: flex;
+    gap: var(--space-1);
+}
+
+/* =========================================================================
+   SVG GRAPH
+   ========================================================================= */
+
+.knowledge-graph-svg {
+    display: block;
+    cursor: grab;
+}
+
+.knowledge-graph-svg:active {
+    cursor: grabbing;
+}
+
+/* Links */
+.graph-link {
+    transition: stroke-opacity 0.3s ease, stroke 0.3s ease;
+}
+
+.graph-link.dimmed {
+    stroke-opacity: 0.1 !important;
+}
+
+.graph-link.filtered-out {
+    display: none;
+}
+
+/* Nodes */
+.graph-node {
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+.graph-node .node-circle {
+    transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.graph-node:hover .node-circle {
+    transform: scale(1.15);
+    filter: brightness(1.1);
+}
+
+.graph-node.dimmed {
+    opacity: 0.2;
+}
+
+.graph-node.highlighted .node-circle {
+    stroke: var(--color-accent-gold);
+    stroke-width: 3px;
+}
+
+.graph-node.filtered-out {
+    display: none;
+}
+
+.node-label {
+    pointer-events: none;
+    opacity: 0.8;
+    font-family: var(--font-family-sans);
+    transition: opacity 0.3s ease;
+}
+
+.graph-node:hover .node-label {
+    opacity: 1;
+    font-weight: var(--font-weight-medium);
+}
+
+.node-icon {
+    pointer-events: none;
+}
+
+/* Category nodes - larger */
+.node-category .node-circle {
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+}
+
+/* =========================================================================
+   GRAPH LEGEND
+   ========================================================================= */
+
+.graph-legend {
+    position: absolute;
+    bottom: var(--space-4);
+    left: var(--space-4);
+    background: var(--color-bg-elevated);
+    border: 1px solid var(--color-border-light);
+    border-radius: var(--radius-md);
+    padding: var(--space-3);
+    box-shadow: var(--shadow-md);
+    max-width: 200px;
+}
+
+.legend-items {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    cursor: pointer;
+    padding: var(--space-1) var(--space-2);
+    border-radius: var(--radius-sm);
+    transition: background var(--transition-fast);
+}
+
+.legend-item:hover {
+    background: var(--color-bg-hover);
+}
+
+.legend-color {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.legend-label {
+    font-size: var(--font-size-xs);
+    color: var(--color-text-secondary);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* =========================================================================
+   GRAPH INFO PANEL
+   ========================================================================= */
+
+.graph-info-panel {
+    position: absolute;
+    top: var(--space-4);
+    right: var(--space-4);
+    width: 280px;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.node-info-header {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--space-3);
+    margin-bottom: var(--space-3);
+}
+
+.node-info-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: var(--radius-md);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    flex-shrink: 0;
+}
+
+.node-info-title {
+    font-size: var(--font-size-lg);
+    font-weight: var(--font-weight-semibold);
+    margin: 0 0 var(--space-1) 0;
+    line-height: 1.2;
+}
+
+.node-info-type {
+    text-transform: capitalize;
+}
+
+.node-info-description {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-secondary);
+    margin: 0 0 var(--space-4) 0;
+}
+
+.node-info-actions {
+    display: flex;
+    gap: var(--space-2);
+}
+
+.node-info-actions .btn {
+    flex: 1;
+}
+
+/* =========================================================================
+   GRAPH LOADING & STATES
+   ========================================================================= */
+
+.graph-loading {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-bg-elevated);
+    gap: var(--space-4);
+}
+
+.graph-loading p {
+    color: var(--color-text-muted);
+    font-style: italic;
+}
+
+.graph-empty,
+.graph-error {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: var(--space-12);
+    height: 100%;
+}
+
+.graph-empty h3,
+.graph-error h3 {
+    margin-top: var(--space-4);
+    margin-bottom: var(--space-2);
+}
+
+.graph-empty p,
+.graph-error p {
+    color: var(--color-text-muted);
+    margin-bottom: var(--space-4);
+}
+
+/* =========================================================================
+   GRAPH PREVIEW (Home Page)
+   ========================================================================= */
+
+.graph-preview-section {
+    margin-top: var(--space-8);
+}
+
+.graph-preview-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: var(--space-4);
+}
+
+.graph-preview-container {
+    background: var(--color-bg-sunken);
+    border-radius: var(--radius-md);
+    overflow: hidden;
+    min-height: 300px;
+}
+
+.graph-preview-svg {
+    display: block;
+}
+
+/* =========================================================================
+   RESPONSIVE
+   ========================================================================= */
+
+@media (max-width: 768px) {
+    .graph-container {
+        height: calc(100vh - var(--size-header) - 120px);
+        min-height: 300px;
+    }
+
+    .graph-header {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .graph-controls {
+        flex-wrap: wrap;
+    }
+
+    .graph-legend {
+        position: static;
+        max-width: 100%;
+        margin-top: var(--space-4);
+    }
+
+    .legend-items {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .graph-info-panel {
+        position: fixed;
+        inset: auto var(--space-4) var(--space-4) var(--space-4);
+        width: auto;
+        max-height: 50vh;
+        z-index: var(--z-modal);
+    }
+}

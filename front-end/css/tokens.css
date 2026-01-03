@@ -1,0 +1,351 @@
+/**
+ * Design Tokens
+ * =============
+ * CSS custom properties for the Knowledge Nexus design system.
+ * Sepia/parchment color palette with scholarly aesthetic.
+ *
+ * Author: Dennis 'dnoice' Smaltz
+ * Signature: Aim Twice, Shoot Once!
+ */
+
+:root {
+    /* =========================================================================
+       SEPIA PARCHMENT COLOR PALETTE
+       ========================================================================= */
+
+    /* Base Parchment Tones - Light to Dark */
+    --color-parchment-50:  #fefcf8;  /* Near white cream */
+    --color-parchment-100: #fdf8f0;  /* Lightest - fresh paper */
+    --color-parchment-200: #f8f0e3;  /* Light cream */
+    --color-parchment-300: #f0e6d3;  /* Warm paper */
+    --color-parchment-400: #e8dcc6;  /* Aged paper */
+    --color-parchment-500: #d9c9a8;  /* Classic parchment */
+    --color-parchment-600: #c4b28a;  /* Darker aged */
+    --color-parchment-700: #a89570;  /* Deep parchment */
+    --color-parchment-800: #8a7a5a;  /* Weathered */
+    --color-parchment-900: #6b5f47;  /* Dark weathered */
+
+    /* Ink Colors - For text and UI elements */
+    --color-ink-50:  #f5f3f0;  /* Barely there */
+    --color-ink-100: #e5e0d8;  /* Very light */
+    --color-ink-200: #ccc4b8;  /* Light */
+    --color-ink-300: #b8a080;  /* Very faded */
+    --color-ink-400: #9a8564;  /* Light ink */
+    --color-ink-500: #7a6548;  /* Faded ink */
+    --color-ink-600: #5c4a33;  /* Medium ink */
+    --color-ink-700: #4a3c28;  /* Standard ink */
+    --color-ink-800: #3d3221;  /* Dark sepia ink */
+    --color-ink-900: #2c2416;  /* Darkest ink */
+    --color-ink-950: #1a1610;  /* Near black */
+
+    /* Accent Colors - Muted, scholarly tones */
+    --color-accent-rust:     #8b4513;  /* Rust/burnt sienna - primary accent */
+    --color-accent-gold:     #b8860b;  /* Dark goldenrod - highlights */
+    --color-accent-forest:   #556b2f;  /* Dark olive green - success */
+    --color-accent-navy:     #2f4f4f;  /* Dark slate - info */
+    --color-accent-burgundy: #722f37;  /* Deep wine - danger/emphasis */
+    --color-accent-copper:   #b87333;  /* Copper - secondary accent */
+    --color-accent-sage:     #87a878;  /* Sage green - subtle accent */
+    --color-accent-slate:    #708090;  /* Slate gray - neutral accent */
+
+    /* =========================================================================
+       SEMANTIC COLOR MAPPINGS
+       ========================================================================= */
+
+    /* Backgrounds */
+    --color-bg-primary:   var(--color-parchment-200);
+    --color-bg-secondary: var(--color-parchment-300);
+    --color-bg-elevated:  var(--color-parchment-100);
+    --color-bg-sunken:    var(--color-parchment-400);
+    --color-bg-overlay:   rgba(44, 36, 22, 0.85);
+    --color-bg-hover:     var(--color-parchment-300);
+    --color-bg-active:    var(--color-parchment-400);
+
+    /* Text */
+    --color-text-primary:   var(--color-ink-800);
+    --color-text-secondary: var(--color-ink-600);
+    --color-text-muted:     var(--color-ink-500);
+    --color-text-disabled:  var(--color-ink-400);
+    --color-text-inverse:   var(--color-parchment-100);
+    --color-text-accent:    var(--color-accent-rust);
+    --color-text-link:      var(--color-accent-rust);
+
+    /* Borders */
+    --color-border-light:  var(--color-parchment-500);
+    --color-border-medium: var(--color-parchment-600);
+    --color-border-dark:   var(--color-ink-400);
+    --color-border-focus:  var(--color-accent-gold);
+
+    /* Interactive States */
+    --color-link:         var(--color-accent-rust);
+    --color-link-hover:   var(--color-ink-700);
+    --color-link-visited: var(--color-accent-burgundy);
+    --color-link-active:  var(--color-ink-800);
+
+    /* Status Colors */
+    --color-success:      var(--color-accent-forest);
+    --color-success-bg:   #f0f5ed;
+    --color-warning:      var(--color-accent-gold);
+    --color-warning-bg:   #fdf8e8;
+    --color-error:        var(--color-accent-burgundy);
+    --color-error-bg:     #fdf0f0;
+    --color-info:         var(--color-accent-navy);
+    --color-info-bg:      #f0f4f4;
+
+    /* =========================================================================
+       TYPOGRAPHY
+       ========================================================================= */
+
+    /* Font Families */
+    --font-family-serif: 'Crimson Pro', 'Palatino Linotype', 'Book Antiqua',
+                         Palatino, Georgia, 'Times New Roman', serif;
+    --font-family-sans:  'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+                         Roboto, 'Helvetica Neue', Arial, sans-serif;
+    --font-family-mono:  'JetBrains Mono', 'Fira Code', 'Cascadia Code',
+                         Consolas, 'Liberation Mono', Menlo, monospace;
+    --font-family-display: 'Playfair Display', var(--font-family-serif);
+
+    /* Font Sizes - Modular scale (1.25 ratio) */
+    --font-size-2xs:  0.625rem;   /* 10px */
+    --font-size-xs:   0.75rem;    /* 12px */
+    --font-size-sm:   0.875rem;   /* 14px */
+    --font-size-base: 1rem;       /* 16px */
+    --font-size-lg:   1.125rem;   /* 18px */
+    --font-size-xl:   1.25rem;    /* 20px */
+    --font-size-2xl:  1.5rem;     /* 24px */
+    --font-size-3xl:  1.875rem;   /* 30px */
+    --font-size-4xl:  2.25rem;    /* 36px */
+    --font-size-5xl:  3rem;       /* 48px */
+    --font-size-6xl:  3.75rem;    /* 60px */
+    --font-size-7xl:  4.5rem;     /* 72px */
+
+    /* Line Heights */
+    --line-height-none:    1;
+    --line-height-tight:   1.25;
+    --line-height-snug:    1.375;
+    --line-height-normal:  1.5;
+    --line-height-relaxed: 1.625;
+    --line-height-loose:   2;
+
+    /* Font Weights */
+    --font-weight-thin:       100;
+    --font-weight-extralight: 200;
+    --font-weight-light:      300;
+    --font-weight-normal:     400;
+    --font-weight-medium:     500;
+    --font-weight-semibold:   600;
+    --font-weight-bold:       700;
+    --font-weight-extrabold:  800;
+    --font-weight-black:      900;
+
+    /* Letter Spacing */
+    --letter-spacing-tighter: -0.05em;
+    --letter-spacing-tight:   -0.025em;
+    --letter-spacing-normal:  0;
+    --letter-spacing-wide:    0.025em;
+    --letter-spacing-wider:   0.05em;
+    --letter-spacing-widest:  0.1em;
+
+    /* =========================================================================
+       SPACING SCALE
+       ========================================================================= */
+
+    --space-px:  1px;
+    --space-0:   0;
+    --space-0-5: 0.125rem;  /* 2px */
+    --space-1:   0.25rem;   /* 4px */
+    --space-1-5: 0.375rem;  /* 6px */
+    --space-2:   0.5rem;    /* 8px */
+    --space-2-5: 0.625rem;  /* 10px */
+    --space-3:   0.75rem;   /* 12px */
+    --space-3-5: 0.875rem;  /* 14px */
+    --space-4:   1rem;      /* 16px */
+    --space-5:   1.25rem;   /* 20px */
+    --space-6:   1.5rem;    /* 24px */
+    --space-7:   1.75rem;   /* 28px */
+    --space-8:   2rem;      /* 32px */
+    --space-9:   2.25rem;   /* 36px */
+    --space-10:  2.5rem;    /* 40px */
+    --space-11:  2.75rem;   /* 44px */
+    --space-12:  3rem;      /* 48px */
+    --space-14:  3.5rem;    /* 56px */
+    --space-16:  4rem;      /* 64px */
+    --space-20:  5rem;      /* 80px */
+    --space-24:  6rem;      /* 96px */
+    --space-28:  7rem;      /* 112px */
+    --space-32:  8rem;      /* 128px */
+    --space-36:  9rem;      /* 144px */
+    --space-40:  10rem;     /* 160px */
+    --space-44:  11rem;     /* 176px */
+    --space-48:  12rem;     /* 192px */
+    --space-52:  13rem;     /* 208px */
+    --space-56:  14rem;     /* 224px */
+    --space-60:  15rem;     /* 240px */
+    --space-64:  16rem;     /* 256px */
+
+    /* =========================================================================
+       SIZING
+       ========================================================================= */
+
+    /* Container widths */
+    --container-xs:   20rem;   /* 320px */
+    --container-sm:   24rem;   /* 384px */
+    --container-md:   28rem;   /* 448px */
+    --container-lg:   32rem;   /* 512px */
+    --container-xl:   36rem;   /* 576px */
+    --container-2xl:  42rem;   /* 672px */
+    --container-3xl:  48rem;   /* 768px */
+    --container-4xl:  56rem;   /* 896px */
+    --container-5xl:  64rem;   /* 1024px */
+    --container-6xl:  72rem;   /* 1152px */
+    --container-7xl:  80rem;   /* 1280px */
+    --container-full: 100%;
+    --container-max:  1920px;
+
+    /* Component sizes */
+    --size-header:    64px;
+    --size-sidebar:   280px;
+    --size-aside:     320px;
+    --size-icon-sm:   16px;
+    --size-icon-md:   24px;
+    --size-icon-lg:   32px;
+    --size-icon-xl:   48px;
+
+    /* =========================================================================
+       BORDERS & RADII
+       ========================================================================= */
+
+    /* Border widths */
+    --border-width-0:      0;
+    --border-width-thin:   1px;
+    --border-width-medium: 2px;
+    --border-width-thick:  4px;
+
+    /* Border radii */
+    --radius-none:   0;
+    --radius-sm:     0.125rem;  /* 2px */
+    --radius-md:     0.25rem;   /* 4px */
+    --radius-lg:     0.5rem;    /* 8px */
+    --radius-xl:     0.75rem;   /* 12px */
+    --radius-2xl:    1rem;      /* 16px */
+    --radius-3xl:    1.5rem;    /* 24px */
+    --radius-full:   9999px;
+
+    /* =========================================================================
+       SHADOWS & EFFECTS
+       ========================================================================= */
+
+    /* Shadows - Using sepia-tinted blacks */
+    --shadow-color: 44, 36, 22;  /* RGB for shadow blending */
+
+    --shadow-xs:    0 1px 2px rgba(var(--shadow-color), 0.05);
+    --shadow-sm:    0 1px 3px rgba(var(--shadow-color), 0.08),
+                    0 1px 2px rgba(var(--shadow-color), 0.06);
+    --shadow-md:    0 4px 6px rgba(var(--shadow-color), 0.08),
+                    0 2px 4px rgba(var(--shadow-color), 0.06);
+    --shadow-lg:    0 10px 15px rgba(var(--shadow-color), 0.1),
+                    0 4px 6px rgba(var(--shadow-color), 0.05);
+    --shadow-xl:    0 20px 25px rgba(var(--shadow-color), 0.12),
+                    0 8px 10px rgba(var(--shadow-color), 0.04);
+    --shadow-2xl:   0 25px 50px rgba(var(--shadow-color), 0.2);
+    --shadow-inner: inset 0 2px 4px rgba(var(--shadow-color), 0.08);
+
+    /* Parchment-specific shadows */
+    --shadow-parchment: 0 0 0 1px var(--color-parchment-500),
+                        0 2px 8px rgba(var(--shadow-color), 0.12),
+                        inset 0 0 60px rgba(217, 201, 168, 0.25);
+
+    --shadow-card:      0 2px 4px rgba(var(--shadow-color), 0.08),
+                        0 4px 12px rgba(var(--shadow-color), 0.1),
+                        inset 0 1px 0 rgba(255, 255, 255, 0.5);
+
+    --shadow-elevated:  0 4px 6px rgba(var(--shadow-color), 0.1),
+                        0 12px 24px rgba(var(--shadow-color), 0.15),
+                        inset 0 1px 0 rgba(255, 255, 255, 0.3);
+
+    /* Focus ring */
+    --ring-color: var(--color-accent-gold);
+    --ring-offset: 2px;
+    --ring-width: 2px;
+    --focus-ring: 0 0 0 var(--ring-offset) var(--color-bg-primary),
+                  0 0 0 calc(var(--ring-offset) + var(--ring-width)) var(--ring-color);
+
+    /* =========================================================================
+       TRANSITIONS & ANIMATIONS
+       ========================================================================= */
+
+    /* Durations */
+    --duration-75:    75ms;
+    --duration-100:   100ms;
+    --duration-150:   150ms;
+    --duration-200:   200ms;
+    --duration-300:   300ms;
+    --duration-500:   500ms;
+    --duration-700:   700ms;
+    --duration-1000:  1000ms;
+
+    /* Easing functions */
+    --ease-linear:      linear;
+    --ease-in:          cubic-bezier(0.4, 0, 1, 1);
+    --ease-out:         cubic-bezier(0, 0, 0.2, 1);
+    --ease-in-out:      cubic-bezier(0.4, 0, 0.2, 1);
+    --ease-bounce:      cubic-bezier(0.34, 1.56, 0.64, 1);
+    --ease-spring:      cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+    /* Common transitions */
+    --transition-fast:    var(--duration-150) var(--ease-out);
+    --transition-normal:  var(--duration-300) var(--ease-out);
+    --transition-slow:    var(--duration-500) var(--ease-out);
+    --transition-colors:  color var(--duration-150) var(--ease-out),
+                          background-color var(--duration-150) var(--ease-out),
+                          border-color var(--duration-150) var(--ease-out);
+    --transition-opacity: opacity var(--duration-200) var(--ease-out);
+    --transition-transform: transform var(--duration-200) var(--ease-out);
+    --transition-all:     all var(--duration-200) var(--ease-out);
+
+    /* =========================================================================
+       Z-INDEX SCALE
+       ========================================================================= */
+
+    --z-behind:     -1;
+    --z-base:       0;
+    --z-docked:     10;
+    --z-dropdown:   100;
+    --z-sticky:     200;
+    --z-fixed:      300;
+    --z-overlay:    400;
+    --z-modal:      500;
+    --z-popover:    600;
+    --z-tooltip:    700;
+    --z-toast:      800;
+    --z-max:        9999;
+
+    /* =========================================================================
+       BREAKPOINTS (for reference - use @media queries)
+       ========================================================================= */
+
+    /* Mobile first breakpoints:
+       --bp-xs:  0       (default)
+       --bp-sm:  640px
+       --bp-md:  768px
+       --bp-lg:  1024px
+       --bp-xl:  1280px
+       --bp-2xl: 1536px
+    */
+}
+
+/* =========================================================================
+   DARK MODE OVERRIDES (if needed in future)
+   ========================================================================= */
+
+/* @media (prefers-color-scheme: dark) {
+    :root.auto-dark {
+        Dark parchment variant - uncomment if needed
+        --color-bg-primary:   var(--color-ink-900);
+        --color-bg-secondary: var(--color-ink-800);
+        --color-bg-elevated:  var(--color-ink-700);
+        --color-text-primary: var(--color-parchment-200);
+        --color-text-secondary: var(--color-parchment-400);
+       
+    }
+} */

@@ -1,0 +1,540 @@
+/**
+ * Typography Styles
+ * =================
+ * Scholarly typography system for Knowledge Nexus.
+ *
+ * Author: Dennis 'dnoice' Smaltz
+ * Signature: Aim Twice, Shoot Once!
+ */
+
+/* =========================================================================
+   FONT IMPORTS
+   ========================================================================= */
+
+/* Google Fonts - Crimson Pro for body, Playfair Display for headings */
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+
+/* =========================================================================
+   HEADING STYLES
+   ========================================================================= */
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: var(--font-family-display);
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-text-primary);
+    letter-spacing: var(--letter-spacing-tight);
+    margin-bottom: var(--space-4);
+}
+
+h1, .h1 {
+    font-size: var(--font-size-4xl);
+    line-height: var(--line-height-tight);
+    font-weight: var(--font-weight-bold);
+    letter-spacing: var(--letter-spacing-tighter);
+}
+
+h2, .h2 {
+    font-size: var(--font-size-3xl);
+    line-height: var(--line-height-tight);
+}
+
+h3, .h3 {
+    font-size: var(--font-size-2xl);
+    line-height: var(--line-height-snug);
+}
+
+h4, .h4 {
+    font-size: var(--font-size-xl);
+    line-height: var(--line-height-snug);
+}
+
+h5, .h5 {
+    font-size: var(--font-size-lg);
+    line-height: var(--line-height-normal);
+}
+
+h6, .h6 {
+    font-size: var(--font-size-base);
+    line-height: var(--line-height-normal);
+    text-transform: uppercase;
+    letter-spacing: var(--letter-spacing-wide);
+}
+
+/* Responsive heading sizes */
+@media (min-width: 768px) {
+    h1, .h1 {
+        font-size: var(--font-size-5xl);
+    }
+
+    h2, .h2 {
+        font-size: var(--font-size-4xl);
+    }
+
+    h3, .h3 {
+        font-size: var(--font-size-3xl);
+    }
+}
+
+/* =========================================================================
+   BODY TEXT
+   ========================================================================= */
+
+p {
+    margin-bottom: var(--space-4);
+    line-height: var(--line-height-relaxed);
+}
+
+/* Lead paragraph */
+.lead {
+    font-size: var(--font-size-xl);
+    line-height: var(--line-height-relaxed);
+    color: var(--color-text-secondary);
+}
+
+/* Small text */
+small,
+.small {
+    font-size: var(--font-size-sm);
+}
+
+.text-xs {
+    font-size: var(--font-size-xs);
+}
+
+/* Muted text */
+.text-muted {
+    color: var(--color-text-muted);
+}
+
+.text-secondary {
+    color: var(--color-text-secondary);
+}
+
+/* =========================================================================
+   LINKS
+   ========================================================================= */
+
+a {
+    color: var(--color-link);
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.15em;
+    transition: var(--transition-colors);
+}
+
+a:hover {
+    color: var(--color-link-hover);
+    text-decoration-thickness: 2px;
+}
+
+a:visited {
+    color: var(--color-link-visited);
+}
+
+/* Link without underline */
+.link-plain {
+    text-decoration: none;
+}
+
+.link-plain:hover {
+    text-decoration: underline;
+}
+
+/* Link with hover underline only */
+.link-hover {
+    text-decoration: none;
+}
+
+.link-hover:hover {
+    text-decoration: underline;
+}
+
+/* =========================================================================
+   TEXT EMPHASIS
+   ========================================================================= */
+
+strong,
+b,
+.font-bold {
+    font-weight: var(--font-weight-bold);
+}
+
+em,
+i,
+.italic {
+    font-style: italic;
+}
+
+.font-semibold {
+    font-weight: var(--font-weight-semibold);
+}
+
+.font-medium {
+    font-weight: var(--font-weight-medium);
+}
+
+.font-normal {
+    font-weight: var(--font-weight-normal);
+}
+
+.font-light {
+    font-weight: var(--font-weight-light);
+}
+
+/* Underline */
+.underline {
+    text-decoration: underline;
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+/* Strike-through */
+del,
+s,
+.line-through {
+    text-decoration: line-through;
+}
+
+/* =========================================================================
+   SPECIAL TEXT TREATMENTS
+   ========================================================================= */
+
+/* Drop cap */
+.drop-cap::first-letter {
+    float: left;
+    font-family: var(--font-family-display);
+    font-size: 4em;
+    line-height: 0.8;
+    padding-right: var(--space-3);
+    padding-top: var(--space-1);
+    color: var(--color-accent-rust);
+    font-weight: var(--font-weight-bold);
+}
+
+/* Small caps */
+.small-caps {
+    font-variant: small-caps;
+    letter-spacing: var(--letter-spacing-wide);
+}
+
+/* All caps */
+.uppercase {
+    text-transform: uppercase;
+    letter-spacing: var(--letter-spacing-wider);
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.normal-case {
+    text-transform: none;
+}
+
+/* =========================================================================
+   LISTS
+   ========================================================================= */
+
+ul.styled,
+ol.styled {
+    padding-left: var(--space-6);
+    margin-bottom: var(--space-4);
+}
+
+ul.styled {
+    list-style-type: disc;
+}
+
+ol.styled {
+    list-style-type: decimal;
+}
+
+ul.styled li,
+ol.styled li {
+    margin-bottom: var(--space-2);
+    line-height: var(--line-height-relaxed);
+}
+
+/* Nested lists */
+ul.styled ul,
+ol.styled ol,
+ul.styled ol,
+ol.styled ul {
+    margin-top: var(--space-2);
+    margin-bottom: var(--space-2);
+}
+
+/* Definition lists */
+dl {
+    margin-bottom: var(--space-4);
+}
+
+dt {
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-text-primary);
+    margin-bottom: var(--space-1);
+}
+
+dd {
+    margin-left: var(--space-6);
+    margin-bottom: var(--space-3);
+    color: var(--color-text-secondary);
+}
+
+/* =========================================================================
+   BLOCKQUOTES
+   ========================================================================= */
+
+blockquote {
+    position: relative;
+    margin: var(--space-6) 0;
+    padding: var(--space-4) var(--space-6);
+    background: var(--color-bg-secondary);
+    border-left: 4px solid var(--color-accent-rust);
+    font-style: italic;
+    color: var(--color-text-secondary);
+}
+
+blockquote p:last-child {
+    margin-bottom: 0;
+}
+
+blockquote cite {
+    display: block;
+    margin-top: var(--space-3);
+    font-size: var(--font-size-sm);
+    font-style: normal;
+    color: var(--color-text-muted);
+}
+
+blockquote cite::before {
+    content: '\2014\00a0';  /* em dash + space */
+}
+
+/* Pull quote */
+.pull-quote {
+    font-family: var(--font-family-display);
+    font-size: var(--font-size-2xl);
+    font-weight: var(--font-weight-medium);
+    text-align: center;
+    border-left: none;
+    border-top: 2px solid var(--color-border-medium);
+    border-bottom: 2px solid var(--color-border-medium);
+    padding: var(--space-6) var(--space-8);
+}
+
+/* =========================================================================
+   CODE & PREFORMATTED TEXT
+   ========================================================================= */
+
+code,
+kbd,
+samp,
+pre {
+    font-family: var(--font-family-mono);
+    font-size: 0.9em;
+}
+
+/* Inline code */
+code:not(pre code) {
+    padding: var(--space-0-5) var(--space-1-5);
+    background: var(--color-parchment-400);
+    border-radius: var(--radius-md);
+    color: var(--color-accent-burgundy);
+    white-space: nowrap;
+}
+
+/* Code blocks */
+pre {
+    margin: var(--space-4) 0;
+    padding: var(--space-4);
+    background: var(--color-ink-900);
+    color: var(--color-parchment-200);
+    border-radius: var(--radius-lg);
+    overflow-x: auto;
+    line-height: var(--line-height-relaxed);
+}
+
+pre code {
+    padding: 0;
+    background: transparent;
+    border-radius: 0;
+    color: inherit;
+    white-space: pre;
+}
+
+/* Keyboard input */
+kbd {
+    padding: var(--space-0-5) var(--space-1-5);
+    background: var(--color-ink-800);
+    color: var(--color-parchment-100);
+    border-radius: var(--radius-md);
+    border: 1px solid var(--color-ink-600);
+    box-shadow: inset 0 -2px 0 var(--color-ink-950);
+    font-size: var(--font-size-xs);
+}
+
+/* =========================================================================
+   HORIZONTAL RULES
+   ========================================================================= */
+
+hr {
+    border: none;
+    height: 1px;
+    background: var(--color-border-medium);
+    margin: var(--space-8) 0;
+}
+
+/* Ornate divider */
+hr.ornate {
+    height: 24px;
+    background: transparent;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 24'%3E%3Cpath d='M0 12h70M130 12h70' stroke='%23c4b28a' stroke-width='1' fill='none'/%3E%3Cpath d='M80 12l10-8 10 8-10 8z' fill='%23c4b28a'/%3E%3Ccircle cx='100' cy='12' r='3' fill='%23c4b28a'/%3E%3Cpath d='M110 12l10-8 10 8-10 8z' fill='%23c4b28a'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    opacity: 0.7;
+}
+
+/* =========================================================================
+   TEXT ALIGNMENT
+   ========================================================================= */
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+/* =========================================================================
+   TABLES (Typography only)
+   ========================================================================= */
+
+table {
+    font-size: var(--font-size-sm);
+    font-variant-numeric: tabular-nums;
+}
+
+th {
+    font-weight: var(--font-weight-semibold);
+    text-align: left;
+}
+
+/* =========================================================================
+   PROSE CONTAINER
+   For long-form article content
+   ========================================================================= */
+
+.prose {
+    font-size: var(--font-size-lg);
+    line-height: var(--line-height-relaxed);
+    color: var(--color-text-primary);
+}
+
+.prose > * + * {
+    margin-top: var(--space-4);
+}
+
+.prose h1 {
+    font-size: var(--font-size-4xl);
+    margin-top: var(--space-12);
+    margin-bottom: var(--space-6);
+}
+
+.prose h2 {
+    font-size: var(--font-size-3xl);
+    margin-top: var(--space-10);
+    margin-bottom: var(--space-5);
+    padding-bottom: var(--space-2);
+    border-bottom: 1px solid var(--color-border-light);
+}
+
+.prose h3 {
+    font-size: var(--font-size-2xl);
+    margin-top: var(--space-8);
+    margin-bottom: var(--space-4);
+}
+
+.prose h4 {
+    font-size: var(--font-size-xl);
+    margin-top: var(--space-6);
+    margin-bottom: var(--space-3);
+}
+
+.prose p {
+    margin-bottom: var(--space-4);
+}
+
+.prose ul,
+.prose ol {
+    padding-left: var(--space-6);
+    margin-bottom: var(--space-4);
+}
+
+.prose ul {
+    list-style-type: disc;
+}
+
+.prose ol {
+    list-style-type: decimal;
+}
+
+.prose li {
+    margin-bottom: var(--space-2);
+}
+
+.prose blockquote {
+    margin: var(--space-6) 0;
+}
+
+.prose img {
+    margin: var(--space-6) 0;
+    border-radius: var(--radius-lg);
+}
+
+.prose a {
+    color: var(--color-link);
+    font-weight: var(--font-weight-medium);
+}
+
+.prose > :first-child {
+    margin-top: 0;
+}
+
+.prose > :last-child {
+    margin-bottom: 0;
+}
+
+/* Smaller prose for sidebars/notes */
+.prose-sm {
+    font-size: var(--font-size-base);
+}
+
+.prose-sm h2 {
+    font-size: var(--font-size-2xl);
+}
+
+.prose-sm h3 {
+    font-size: var(--font-size-xl);
+}
+
+.prose-sm h4 {
+    font-size: var(--font-size-lg);
+}
