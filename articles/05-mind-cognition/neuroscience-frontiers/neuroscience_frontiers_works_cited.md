@@ -7,19 +7,20 @@
     - Relative Path: articles\05-mind-cognition\neuroscience-frontiers\neuroscience_frontiers_works_cited.md
     - Artifact Type: docs
     - Version: 1.0.0
-    - Date: 2026-01-03
-    - Update: Saturday, January 03, 2026
+    - Date: 2026-01-10
+    - Update: Saturday, January 10, 2026
     - Author: Dennis 'dnoice' Smaltz
     - A.I. Acknowledgement: Google Deep Mind - Gemini 3 Pro
     - Signature: ︻デ═─── ✦ ✦ ✦ | Aim Twice, Shoot Once!
 
 ✒ Description:
-    Bibliography and reference materials for Neuroscience Frontiers.
+    Bibliography and reference materials for Neuroscience Frontiers, focusing on
+    2024-2025 research in BCIs, organoids, and connectomics.
 
 ✒ Key Features:
-    - Feature 1: Academic papers and journals
-    - Feature 2: Books and monographs
-    - Feature 3: Web resources and datasets
+    - Feature 1: Recent Nature and Science publications (2024-2025)
+    - Feature 2: NIH BRAIN Initiative reports
+    - Feature 3: Industry announcements (Neuralink, Meta)
 
 ✒ Other Important Information:
     - Dependencies: None
@@ -27,24 +28,7 @@
 ---------
 -->
 
-> **Status**: Placeholder - References to be added
-
-## Academic Papers
-
-[References to be added]
-
-## Books and Monographs
-
-[References to be added]
-
-## Web Resources
-
-[References to be added]
-
-## Datasets and Repositories
-
-[References to be added]
-
 ---
 
 > **︻デ═─── ✦ ✦ ✦ | Aim Twice, Shoot Once!**
+

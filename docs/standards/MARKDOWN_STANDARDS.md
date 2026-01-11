@@ -125,7 +125,7 @@ is essential for accessibility and readability.
 | MD022 | Blank line before and after headings |
 | MD024 | No duplicate heading text within same document |
 | MD025 | Single H1 (`#`) per document — the title |
-| MD041 | First line must be a top-level heading (`#`) |
+| MD041 | First line must start with the docstring-standard |
 
 ### Heading Best Practices
 

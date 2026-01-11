@@ -297,7 +297,7 @@ A 2025 synthesis (dubbed the "minimalist account") proposes:
 
 The field has converged on hybrid models:
 
-```
+```diagram
                     Conceptual System
                           |
             +-------------+-------------+
