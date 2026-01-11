@@ -8,7 +8,7 @@
     - Date: 2025-01-02
     - Update: Thursday, January 02, 2025
     - Author: Dennis 'dnoice' Smaltz
-    - A.I. Acknowledgement: Anthropic - Claude Opus 4.5
+    - A.I. Acknowledgement: Google Deep Mind - Gemini 3 Pro
     - Signature: ︻デ═─── ✦ ✦ ✦ | Aim Twice, Shoot Once!
 
 ✒ Description:
@@ -67,7 +67,7 @@
 ### Cosmology
 
 | Metric | Value | Why It Matters |
-|--------|-------|----------------|
+| -------- | ------- | ---------------- |
 | Hubble Tension | **>5σ** | Statistically impossible to be measurement error |
 | H₀ (Planck/CMB) | 67.4 km/s/Mpc | Early universe prediction |
 | H₀ (Local/SH0ES) | 73.0 km/s/Mpc | Late universe measurement |
@@ -77,7 +77,7 @@
 ### Particle Physics
 
 | Metric | Value | Why It Matters |
-|--------|-------|----------------|
+| -------- | ------- | ---------------- |
 | Higgs Mass | 125.38 GeV | "Unnaturally" light |
 | Planck Mass | 10¹⁹ GeV | Where gravity becomes strong |
 | Fine-tuning Required | 1 in 10³⁴ | Absurdly precise if no new physics |
@@ -86,7 +86,7 @@
 ### String Theory
 
 | Metric | Value | Why It Matters |
-|--------|-------|----------------|
+| -------- | ------- | ---------------- |
 | Possible Vacua | 10⁵⁰⁰ | More "solutions" than atoms in observable universe |
 | Years Since Proposal | ~50 | No experimental confirmation |
 | Strings 2026 | No host found | Institutional momentum fading |
@@ -94,7 +94,7 @@
 ### Institutional Crisis
 
 | Metric | Value | Why It Matters |
-|--------|-------|----------------|
+| -------- | ------- | ---------------- |
 | Admin Time | >40% | Researchers not researching |
 | High-risk Funding | Declining | Conservative selection kills breakthrough potential |
 | Researcher Exodus | Accelerating | Brain drain from U.S. |
@@ -299,7 +299,7 @@ Paradigm Entrenchment → Monopolized Funding → Alternative Suppression
 ## 📚 Terminology Glossary
 
 | Term | Definition | Context |
-|------|------------|---------|
+| ------ | ------------ | --------- |
 | **ΛCDM** | Lambda-Cold Dark Matter model; standard cosmological model | Cosmology |
 | **Hubble Constant (H₀)** | Rate of universe expansion; km/s per megaparsec | Cosmology |
 | **BAO** | Baryon Acoustic Oscillations; "sound waves" frozen in early universe | Cosmology |

@@ -8,7 +8,7 @@
     - Date: 2025-01-02
     - Update: Thursday, January 02, 2025
     - Author: Dennis 'dnoice' Smaltz
-    - A.I. Acknowledgement: Anthropic - Claude Opus 4.5
+    - A.I. Acknowledgement: Google Deep Mind - Gemini 3 Pro
     - Signature: ︻デ═─── ✦ ✦ ✦ | Aim Twice, Shoot Once!
 
 ✒ Description:
@@ -64,7 +64,7 @@ OLD PARADIGM                           NEW PARADIGM
 **Four Key Portals:**
 
 | Portal | Mediator | Math | What It Does |
-|--------|----------|------|--------------|
+| -------- | ---------- | ------ | -------------- |
 | **Vector** | Dark Photon (A') | F'μν Bμν | Kinetic mixing with hypercharge |
 | **Scalar** | Dark Higgs (S) | S\|H\|² | Mixes with Higgs, enables direct detection |
 | **Neutrino** | Sterile ν (N) | LHN | Seesaw mechanism, leptogenesis |
@@ -84,7 +84,7 @@ OLD PARADIGM                           NEW PARADIGM
 ### Mass Scales
 
 | Regime | Mass Range | Detection Challenge | Key Experiments |
-|--------|------------|--------------------|--------------|
+| -------- | ------------ | -------------------- | -------------- |
 | **WIMP** | 10 GeV - 10 TeV | High energy needed | LHC, LZ, XENONnT |
 | **Light DM** | 1 MeV - 10 GeV | Low energy deposit | SENSEI, LDMX |
 | **Sub-MeV** | keV - MeV | Single-electron sensitivity | Skipper CCDs |
@@ -93,7 +93,7 @@ OLD PARADIGM                           NEW PARADIGM
 ### Coupling Strengths
 
 | Portal | Typical Strength | Why So Small |
-|--------|-----------------|--------------|
+| -------- | ----------------- | -------------- |
 | **Kinetic mixing (ε)** | 10⁻³ - 10⁻⁶ | Loop suppression |
 | **Higgs mixing (λ)** | 10⁻² - 10⁻⁴ | EW precision constraints |
 | **Yukawa (y)** | 10⁻⁶ - 10⁻¹² | Seesaw requires tiny mixing |
@@ -102,7 +102,7 @@ OLD PARADIGM                           NEW PARADIGM
 ### Dark Dimension Scenario
 
 | Parameter | Value | Significance |
-|-----------|-------|--------------|
+| ----------- | ------- | -------------- |
 | **Extra dimension size** | ~1 μm (micron) | Macroscopic! |
 | **KK graviton mass** | ~meV | Dark matter candidate |
 | **Connection to Λ** | R ~ Λ⁻¹/⁴ | Links DM mass to DE |
@@ -213,7 +213,7 @@ AXION:     ℒ ⊃ (a/f_a) F_μν F̃^μν
 **The Small-Scale Problems:**
 
 | Problem | What CDM Predicts | What We See |
-|---------|------------------|-------------|
+| --------- | ------------------ | ------------- |
 | **Core-Cusp** | Density spike at center | Flat density core |
 | **Too-Big-To-Fail** | Massive satellite halos | Less massive satellites |
 | **Missing Satellites** | Thousands of sub-halos | Fewer observed |
@@ -257,7 +257,7 @@ SIMP:           DM + DM + DM → DM + DM (3-to-2)
 **Dark Sector Solutions:**
 
 | Approach | Mechanism | H₀ Effect | S₈ Effect |
-|----------|-----------|-----------|-----------|
+| ---------- | ----------- | ----------- | ----------- |
 | **Early Dark Energy** | Extra energy before recombination | Increases ↑ | Worsens ↑ |
 | **Interacting DE-DM** | Energy flows DE → DM | Can tune | Decreases ↓ |
 | **Dynamical DE** | w evolves from w<-1 to w>-1 | Matches DESI | Depends on model |
@@ -330,7 +330,7 @@ Key: Single-photon sensitivity via quantum non-demolition
 ### Experimental Programs Summary
 
 | Program | Technique | Target | Status |
-|---------|-----------|--------|--------|
+| --------- | ----------- | -------- | -------- |
 | **LDMX** | Missing momentum | Sub-GeV DM, dark photons | Phase 1 proposed |
 | **SENSEI** | Skipper CCDs | Sub-GeV DM | Running at SNOLAB |
 | **DAMIC-M** | CCDs | Sub-GeV DM | Installing |
@@ -394,7 +394,7 @@ Key: Single-photon sensitivity via quantum non-demolition
 ## 📚 Terminology Glossary
 
 | Term | Definition | Context |
-|------|------------|---------|
+| ------ | ------------ | --------- |
 | **Portal** | Gauge-singlet operator allowing SM-dark sector coupling | Theory |
 | **Kinetic Mixing** | Off-diagonal kinetic term between two U(1) gauge fields | Vector portal |
 | **HNL** | Heavy Neutral Lepton; sterile neutrino | Neutrino portal |

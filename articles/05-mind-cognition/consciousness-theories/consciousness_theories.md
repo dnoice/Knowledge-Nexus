@@ -1,5 +1,3 @@
-# Consciousness Theories
-
 <!--
 ✒ Metadata
     - Title: Consciousness Theories (Knowledge Nexus 2026 Edition - v1.0)
@@ -8,49 +6,403 @@
     - Artifact Type: docs
     - Version: 1.0.0
     - Date: 2026-01-03
-    - Update: Saturday, January 03, 2026
+    - Update: Friday, January 03, 2026
     - Author: Dennis 'dnoice' Smaltz
-    - A.I. Acknowledgement: Anthropic - Claude Opus 4.5
+    - A.I. Acknowledgement: Google Deep Mind - Gemini 3 Pro
     - Signature: ︻デ═─── ✦ ✦ ✦ | Aim Twice, Shoot Once!
 
 ✒ Description:
-    Placeholder for comprehensive exploration of Consciousness Theories.
-    This document will serve as a foundational knowledge base for the topic.
+    A rigorous survey of the leading scientific theories of consciousness—
+    their mechanisms, predictions, neural substrates, empirical tests,
+    and the adversarial collaborations attempting to adjudicate between them.
 
 ✒ Key Features:
-    - Feature 1: [To be developed]
-    - Feature 2: [To be developed]
-    - Feature 3: [To be developed]
+    - Feature 1: Integrated Information Theory (IIT) - axioms, postulates, Φ
+    - Feature 2: Global Neuronal Workspace Theory (GNWT) - ignition, broadcasting
+    - Feature 3: Higher-Order Theories (HOT) - metacognition, prefrontal cortex
+    - Feature 4: Recurrent Processing Theory (RPT) - feedback loops, visual cortex
+    - Feature 5: Predictive Processing (PP) - precision weighting, prediction error
+    - Feature 6: Attention Schema Theory (AST) - attention modeling
+    - Feature 7: The posterior hot zone vs. prefrontal debate
+    - Feature 8: Adversarial collaborations and empirical testing
+
+✒ Usage Instructions:
+    Reference for understanding the scientific landscape of consciousness.
+    Cross-reference with works_cited and my_notes.
 
 ✒ Other Important Information:
     - Dependencies: None (documentation only)
-    - Compatible platforms: Universal (all markdown renderers)
-    - Scope: Comprehensive overview for research and learning
-    - Intended audience: Researchers, students, enthusiasts
+    - Research date: January 2026
 ---------
 -->
 
-> **Status**: Placeholder - Content to be developed
+# Consciousness Theories: A Scientific Survey
 
-## Overview
+The scientific study of consciousness has matured from philosophical speculation into an empirically tractable research program. Multiple theories now make specific, testable predictions about which neural mechanisms give rise to subjective experience. These theories differ in their proposed mechanisms, predicted neural correlates, and implications for artificial systems.
 
-[Content to be developed]
+This survey examines the leading theories systematically: their formal structures, neural predictions, supporting evidence, and the adversarial collaborations designed to discriminate between them.
 
-## Key Concepts
+## The Foundational Distinction: NCCs
 
-[Content to be developed]
+Francis Crick and Christof Koch introduced the concept of the neural correlates of consciousness (NCC): the minimal neuronal mechanisms jointly sufficient for any one specific conscious percept. This operational definition enabled empirical progress without requiring a solution to the hard problem.
 
-## Current Research
+NCC research distinguishes between:
 
-[Content to be developed]
+- **Background conditions**: States enabling consciousness generally (arousal, intact brainstem)
+- **Content-specific NCCs**: Neural activity correlated with particular conscious contents (seeing red, hearing a tone)
+- **Full NCCs**: The complete neural substrate sufficient for any conscious experience
 
-## Applications
+Recent findings localize content-specific NCCs primarily to the **posterior cortical hot zone**—a temporo-parietal-occipital region—rather than prefrontal networks involved in reporting and monitoring.
 
-[Content to be developed]
+## Integrated Information Theory (IIT)
 
-## Future Directions
+### Formal Structure
 
-[Content to be developed]
+Developed by Giulio Tononi, IIT takes an axiomatic approach. It starts from phenomenology—the structure of experience itself—and derives requirements for any physical system that could be conscious.
+
+**Five Axioms** (self-evident properties of experience):
+
+1. **Intrinsic existence**: Experience exists for itself, not just relative to external observers
+2. **Composition**: Experience is structured, composed of phenomenal distinctions
+3. **Information**: Experience is specific—this particular experience, not another
+4. **Integration**: Experience is unified, not reducible to independent components
+5. **Exclusion**: Experience has definite content and spatial/temporal grain
+
+**Five Postulates** (requirements for the physical substrate):
+
+1. **Intrinsic causal power**: The system must have causal effects within itself
+2. **Composition**: The system must have parts that combine
+3. **Information**: The system must specify a cause-effect structure
+4. **Integration**: The cause-effect structure must be irreducible
+5. **Exclusion**: Only one cause-effect structure exists at any spatiotemporal grain
+
+### The Φ Measure
+
+IIT proposes that consciousness corresponds to integrated information, quantified as Φ (phi). Φ measures how much a system's cause-effect structure is irreducible—how much information is generated by the whole beyond its parts.
+
+Calculating Φ is computationally intractable for large systems. For practical purposes, proxies like the Perturbational Complexity Index (PCI) are used. PCI measures the complexity of EEG responses to transcranial magnetic stimulation and reliably distinguishes conscious from unconscious states.
+
+### Neural Predictions
+
+IIT predicts:
+
+- The posterior cortical hot zone, with its dense recurrent connectivity, generates high Φ
+- Feedforward-only architectures generate minimal Φ regardless of complexity
+- Consciousness requires a specific architecture, not just computational power
+- The cerebellum, despite more neurons than cortex, contributes little to consciousness due to modular architecture
+
+### Empirical Status
+
+IIT proponents cite 16 peer-reviewed studies testing core claims. However, in a 2023 open letter, 124 researchers characterized IIT as lacking sufficient empirical falsifiability. The 2025 Nature adversarial study challenged a specific IIT prediction: sustained synchronization in posterior cortex. Despite adequate statistical power, no such synchrony was observed.
+
+## Global Neuronal Workspace Theory (GNWT)
+
+### Mechanism
+
+Bernard Baars and Stanislas Dehaene propose that consciousness arises when information becomes globally available through broadcast to a distributed network of high-level cortical areas—the global workspace.
+
+The architecture involves:
+
+- **Specialized processors**: Local cortical modules processing specific information (faces, motion, phonemes)
+- **Workspace neurons**: Long-range cortical neurons, particularly in prefrontal and parietal cortex
+- **Ignition**: Threshold-crossing event where local activation triggers sustained, reverberating activity across the workspace
+- **Broadcast**: Globally accessible information that can influence any cognitive process
+
+### Neural Predictions
+
+GNWT predicts:
+
+- A late (300+ ms) P3b wave in EEG reflecting global ignition
+- Activation of prefrontal and parietal cortex during conscious perception
+- Late, sustained activity differentiating conscious from unconscious processing
+- All-or-none ignition dynamics (not graded activation)
+
+### Empirical Evidence
+
+Multiple paradigms support GNWT's core predictions:
+
+- **Masking studies**: Visible stimuli evoke late P3b waves absent for invisible stimuli
+- **Attentional blink**: Stimuli that break through to awareness show prefrontal ignition
+- **Inattentional blindness**: Unattended stimuli fail to trigger global broadcasting
+
+However, the 2025 adversarial study found missing "ignition" at stimulus offset—a key prediction failure. How the workspace maintains and updates conscious content remains unexplained.
+
+### Architectural Specification
+
+GNWT maps onto specific neural architecture:
+
+| Component | Neural Substrate |
+| --------- | ---------------- |
+| Workspace neurons | Layer II/III pyramidal cells with long-range connections |
+| Ignition threshold | ~300 ms post-stimulus |
+| Key regions | Dorsolateral prefrontal cortex, inferior parietal lobule |
+| Signature | Late P3b, gamma synchronization |
+
+## Higher-Order Theories (HOT)
+
+### Core Claim
+
+Consciousness requires meta-representation—a higher-order state representing first-order perceptual states. You're not just in pain; you're aware that you're in pain. This higher-order awareness is what makes the experience conscious.
+
+David Rosenthal distinguishes:
+
+- **First-order representations**: States representing external objects/properties
+- **Higher-order representations**: States representing first-order states
+- **Consciousness**: Arises when higher-order states are "of" first-order states
+
+### Variants
+
+**HOROR (Higher-Order Representation of a Representation)**: Consciousness requires a higher-order thought that one is in a particular mental state.
+
+**PRM (Perceptual Reality Monitoring)**: Higher-order states monitor whether first-order states accurately represent reality.
+
+**HOSS (Higher-Order State Space)**: Consciousness is a structured representational space of one's own mental states.
+
+### Neural Predictions
+
+HOT theories implicate:
+
+- Dorsolateral prefrontal cortex (dlPFC) for meta-representation
+- Anterior prefrontal cortex for introspection
+- Connections between sensory cortex and prefrontal regions
+
+### Evidence and Challenges
+
+Supporting evidence:
+
+- Lesions to prefrontal cortex can impair metacognitive accuracy
+- Prefrontal activity correlates with metacognitive judgments
+- Developmental emergence of metacognition correlates with prefrontal maturation
+
+Challenges:
+
+- Prefrontal lobectomy patients remain conscious
+- Extensive bilateral prefrontal damage preserves perceptual consciousness
+- The "posterior hot zone" findings suggest consciousness doesn't require prefrontal activity
+
+## Recurrent Processing Theory (RPT)
+
+### Mechanism
+
+Victor Lamme proposes that consciousness arises from recurrent (feedback) processing within and between cortical areas—not from feedforward activation alone.
+
+The processing stages:
+
+1. **Fast feedforward sweep** (~40-100 ms): Activates areas up to prefrontal cortex, but is unconscious
+2. **Local recurrence** (~100-200 ms): Feedback within sensory cortex, generates phenomenal consciousness
+3. **Global recurrence** (~200+ ms): Long-range feedback enables access consciousness and report
+
+### Key Distinction
+
+RPT distinguishes phenomenal consciousness (what it's like) from access consciousness (availability for report):
+
+- **Phenomenal consciousness**: Requires only local recurrence in sensory cortex
+- **Access consciousness**: Requires global recurrence including frontal areas
+- **Implication**: We may have phenomenal experience of more than we can access or report
+
+### Neural Evidence
+
+Supporting findings:
+
+- Backward masking disrupts recurrent processing and abolishes awareness
+- TMS to visual cortex at recurrent processing times (~100 ms) impairs conscious perception
+- Lesions to V1 abolish visual awareness even with intact higher areas
+- Change blindness occurs when attention prevents local recurrence from completing
+
+### Predictions
+
+RPT predicts:
+
+- Local recurrent activity in posterior cortex correlates with awareness
+- Feedforward activity alone is insufficient
+- Report and access can be dissociated from experience itself
+
+## Predictive Processing (PP)
+
+### Framework
+
+Originating from Karl Friston's free energy principle, predictive processing proposes the brain is fundamentally a prediction machine—constantly generating predictions about sensory input and updating based on prediction errors.
+
+Core components:
+
+- **Generative models**: Hierarchical models predicting sensory input
+- **Prediction errors**: Mismatches between predictions and actual input
+- **Precision weighting**: Attention adjusts the gain on prediction errors
+- **Active inference**: Actions selected to confirm predictions
+
+### Consciousness in PP
+
+Several proposals link PP to consciousness:
+
+**Precision-weighted prediction errors**: Conscious contents correspond to high-precision prediction errors that drive model updating.
+
+**Counterfactual richness**: Consciousness arises from models generating rich counterfactual predictions—what would happen if actions were taken.
+
+**Self-modeling**: The generative model includes a model of the self as an agent, enabling metacognition.
+
+### Neural Implementation
+
+PP maps onto cortical hierarchies:
+
+- Higher levels generate predictions (top-down)
+- Lower levels compute prediction errors (bottom-up)
+- Precision modulation occurs via gain control mechanisms (attention)
+- Gamma oscillations may encode prediction errors; beta oscillations encode predictions
+
+### Empirical Evidence
+
+PP explains numerous phenomena:
+
+- Perceptual illusions as predictions overriding input
+- Attention as precision optimization
+- Hierarchical processing in cortex
+- Effects of expectation on perception
+
+## Attention Schema Theory (AST)
+
+### Proposal
+
+Michael Graziano proposes that consciousness is the brain's simplified model of its own attention processes. The "attention schema" is a caricature-like self-description that depicts internal attention as having subjective awareness.
+
+### Mechanism
+
+- Attention mechanisms selectively enhance signal processing
+- The brain constructs a model of this attention process—the attention schema
+- This model describes attention in simplified, "magical" terms (subjective experience)
+- We report being conscious because that's what the internal model says
+
+### Predictions
+
+AST predicts:
+
+- Regions constructing attention models (temporo-parietal junction, superior temporal sulcus) are critical for consciousness
+- Damage to attention-modeling regions impairs awareness attribution
+- Consciousness reports reflect the content of the attention schema, not attention itself
+
+### Unique Implications
+
+AST uniquely explains:
+
+- Why consciousness seems mysterious (the model doesn't describe neural mechanisms)
+- Why we attribute consciousness to others (social attention modeling)
+- How consciousness could be implemented in machines (by building attention schemas)
+
+## The Posterior Hot Zone vs. Prefrontal Debate
+
+A central controversy: where is consciousness generated?
+
+### Posterior Hot Zone Evidence
+
+Research increasingly localizes content-specific NCCs to posterior cortex:
+
+| Evidence | Implication |
+| -------- | ----------- |
+| Prefrontal lobectomy preserves consciousness | Prefrontal not required |
+| Content-specific activity in occipito-temporal regions | Posterior generates contents |
+| No-report paradigms show posterior, not prefrontal, activity | Prefrontal may be for reporting |
+| Lesions to posterior hot zone eliminate specific conscious contents | Necessary for experience |
+
+### Prefrontal Evidence
+
+GWT and HOT theories maintain prefrontal involvement:
+
+| Evidence | Implication |
+| -------- | ----------- |
+| P3b wave involves frontal regions | Global workspace includes PFC |
+| Metacognitive accuracy requires prefrontal function | HOT requires PFC |
+| Working memory (prefrontal) links to consciousness | Access requires PFC |
+
+### Resolution Attempts
+
+The debate may resolve through:
+
+- **Distinguishing access from phenomenal consciousness**: Posterior = phenomenal; frontal = access
+- **No-report paradigms**: Remove reporting confounds
+- **Careful lesion analysis**: Distinguish consciousness from cognitive functions
+
+## Adversarial Collaborations
+
+The Templeton World Charity Foundation sponsors rigorous tests between theories:
+
+### Completed: IIT vs. GNWT (2025)
+
+- **Design**: 256 participants, multimodal imaging (fMRI, MEG, iEEG)
+- **IIT prediction**: Sustained posterior synchronization
+- **GNWT prediction**: Prefrontal ignition at offset
+- **Results**: Both predictions failed; both theories challenged
+
+### Ongoing
+
+| Project | Theories Tested | Status |
+| ------- | --------------- | ------ |
+| Animal consciousness | IIT vs. GWT | In progress |
+| INTREPID | IIT vs. PP vs. Neurorepresentationalism | In progress |
+| ETHoS | Four HOT variants | In progress |
+| RPT vs. HOT | First-order vs. higher-order | In progress |
+
+### ConTraSt Database
+
+The ConTraSt database now includes 511 experiments (through mid-2025) interpreted in light of GWT, HOT, IIT, and RPT. This meta-analytic resource enables systematic comparison of theory-evidence alignments.
+
+## Empirical Markers by Theory
+
+| Theory | Key Empirical Markers |
+| ------ | --------------------- |
+| IIT | PCI (perturbational complexity), posterior information integration |
+| GNWT | P3b wave, workspace ignition, late global activity |
+| HOT | Prefrontal metacognitive activity, introspection-related BOLD |
+| RPT | Local recurrence in sensory cortex, backward masking effects |
+| PP | Precision-weighted prediction error signals, oscillatory signatures |
+| AST | TPJ activity for attention attribution, social cognition markers |
+
+## Convergence and Divergence
+
+Despite debates, theories converge on certain points:
+
+**Convergent**:
+
+- Local recurrent processing in specialized modules
+- Some form of serial cognitive bottleneck
+- Temporal dynamics distinguishing conscious from unconscious processing
+- Posterior cortex critical for content-specific consciousness
+
+**Divergent**:
+
+- Role of prefrontal cortex (essential vs. enabling vs. for report)
+- Whether consciousness requires global broadcasting or local recurrence suffices
+- Whether meta-representation is constitutive or merely correlates
+- What the fundamental "currency" of consciousness is (information, prediction, attention)
+
+## Implications for Artificial Systems
+
+Each theory implies different requirements for conscious AI:
+
+| Theory | AI Consciousness Requirement |
+| ------ | ---------------------------- |
+| IIT | High Φ architecture (recurrent, integrated, not feedforward) |
+| GNWT | Global broadcasting workspace with ignition dynamics |
+| HOT | Higher-order self-modeling capability |
+| RPT | Recurrent processing in sensory-like modules |
+| PP | Hierarchical predictive model with precision weighting |
+| AST | Attention schema modeling its own attention |
+
+Current AI systems (transformers, LLMs) satisfy few of these requirements. Whether they could be modified to satisfy them—and whether satisfaction would constitute consciousness—remains open.
+
+## The State of the Field
+
+Consciousness science in 2026 is characterized by:
+
+- **Theoretical proliferation**: Multiple serious, empirically grounded theories
+- **Adversarial testing**: Systematic attempts to discriminate theories
+- **Partial falsification**: Major theories have failed key predictions
+- **Methodological advancement**: No-report paradigms, multimodal imaging, AI modeling
+- **Unresolved fundamentals**: The hard problem remains; theories describe correlates, not mechanisms
+
+The field has moved beyond asking whether consciousness can be studied scientifically. The question now is which theory best captures the neural mechanisms, and whether any current theory is even approximately correct.
+
+The adversarial collaborations suggest both IIT and GNWT, despite decades of development, face serious empirical challenges. This may indicate that the correct theory hasn't been formulated yet—or that consciousness requires elements from multiple frameworks.
+
+The search continues.
 
 ---
 

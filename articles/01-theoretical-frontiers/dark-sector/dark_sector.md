@@ -8,7 +8,7 @@
     - Date: 2025-01-02
     - Update: Thursday, January 02, 2025
     - Author: Dennis 'dnoice' Smaltz
-    - A.I. Acknowledgement: Anthropic - Claude Opus 4.5
+    - A.I. Acknowledgement: Google Deep Mind - Gemini 3 Pro
     - Signature: ︻デ═─── ✦ ✦ ✦ | Aim Twice, Shoot Once!
 
 ✒ Description:
@@ -122,7 +122,7 @@ Because dark states are feebly coupled, they can exist at relatively low mass sc
 ### 1.5 Minimal vs. Rich Dark Sector Comparison
 
 | Feature | Minimal Dark Sector | Rich Dark Sector (RDSM) |
-|---------|--------------------|-----------------------|
+| --------- | -------------------- | ----------------------- |
 | **Particle Content** | Single mediator/candidate | Multiple fermions, bosons, and scalars |
 | **Symmetry Structure** | Single U(1) or Z₂ | Complex gauge groups, broken symmetries |
 | **Interaction Portals** | Usually one (e.g., Vector) | Multiple simultaneous portals |
@@ -193,7 +193,7 @@ The interaction between the visible sector and the dark sector is mathematically
 There are four primary renormalizable portals, each associated with a specific type of mediator:
 
 | Portal Type | Mathematical Operator | Primary Mediator | Interaction Strength |
-|-------------|----------------------|------------------|---------------------|
+| ------------- | ---------------------- | ------------------ | --------------------- |
 | **Vector** | F'μν Bμν | Dark Photon (A') | Kinetic mixing ε |
 | **Scalar** | S\|H\|² | Dark Higgs (S) | Quartic coupling λ |
 | **Neutrino** | LHN | HNL / Sterile ν | Yukawa coupling y |
@@ -408,7 +408,7 @@ SIMPs are unique because their relic abundance is determined by **3-to-2 or high
 ### 5.5 Small-Scale Solutions Summary
 
 | Problem | CDM Prediction | Observation | Dark Sector Solution |
-|---------|---------------|-------------|---------------------|
+| --------- | --------------- | ------------- | --------------------- |
 | **Core-Cusp** | Cusp (ρ ∝ r⁻¹) | Flat Core (ρ ≈ const) | SIDM / SIMP scattering |
 | **Too-Big-To-Fail** | Overly massive satellites | Lower-density satellites | Self-interactions / 3-to-2 heat |
 | **Missing Satellites** | Huge population of sub-halos | Fewer observed satellites | Early decoupling / WDM effects |
@@ -542,7 +542,7 @@ At low masses, dark matter behaves more like a **coherently oscillating classica
 ### 7.6 Experimental Technologies Summary
 
 | Technology | Experimental Focus | Dark Sector Target | Detection Principle |
-|------------|-------------------|-------------------|---------------------|
+| ------------ | ------------------- | ------------------- | --------------------- |
 | **Skipper CCDs** | SENSEI / DAMIC | sub-GeV DM | Single-electron ionization |
 | **Missing Momentum** | LDMX | sub-GeV DM / mediators | Kinematic imbalance |
 | **Transmon Qubits** | Axion Haloscopes | Ultralight Axions | Single-photon sensing |

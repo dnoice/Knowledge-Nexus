@@ -8,7 +8,7 @@
     - Date: 2025-01-02
     - Update: Thursday, January 02, 2025
     - Author: Dennis 'dnoice' Smaltz
-    - A.I. Acknowledgement: Anthropic - Claude Opus 4.5
+    - A.I. Acknowledgement: Google Deep Mind - Gemini 3 Pro
     - Signature: ︻デ═─── ✦ ✦ ✦ | Aim Twice, Shoot Once!
 
 ✒ Description:
@@ -437,7 +437,7 @@
 ## Key Theorists Reference
 
 | Theorist | Primary Contribution | Key Work |
-|----------|---------------------|----------|
+| ---------- | --------------------- | ---------- |
 | **David Chalmers** | Hard Problem formulation | "Facing Up to the Problem of Consciousness" (1995) |
 | **Frank Jackson** | Knowledge Argument | "Epiphenomenal Qualia" (1982) |
 | **Thomas Nagel** | "What it is like" formulation | "What Is It Like to Be a Bat?" (1974) |

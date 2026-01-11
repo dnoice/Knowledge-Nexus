@@ -8,7 +8,7 @@
     - Date: 2025-01-03
     - Update: Friday, January 03, 2025
     - Author: Dennis 'dnoice' Smaltz
-    - A.I. Acknowledgement: Anthropic - Claude Opus 4.5
+    - A.I. Acknowledgement: Google Deep Mind - Gemini 3 Pro
     - Signature: ︻デ═─── ✦ ✦ ✦ | Aim Twice, Shoot Once!
 
 ✒ Description:
@@ -379,7 +379,7 @@ classDiagram
     class Dog {
         +fetch()
     }
-    Animal <|-- Dog
+    Animal <| -- Dog
 ```
 ````
 
@@ -790,7 +790,7 @@ Final line followed by exactly one newline.
 
 ```markdown
 |Header|Header|
-|------|------|
+| ------ | ------ |
 |Cell  |Cell  |
 ```
 

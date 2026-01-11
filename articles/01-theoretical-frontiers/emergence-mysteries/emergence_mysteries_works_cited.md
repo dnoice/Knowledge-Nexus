@@ -8,7 +8,7 @@
     - Date: 2025-01-02
     - Update: Thursday, January 02, 2025
     - Author: Dennis 'dnoice' Smaltz
-    - A.I. Acknowledgement: Anthropic - Claude Opus 4.5
+    - A.I. Acknowledgement: Google Deep Mind - Gemini 3 Pro
     - Signature: ︻デ═─── ✦ ✦ ✦ | Aim Twice, Shoot Once!
 
 ✒ Description:
@@ -459,7 +459,7 @@
 ## Key Researchers and Institutions Reference
 
 | Researcher/Team | Institution | Primary Contribution |
-|-----------------|-------------|---------------------|
+| ----------------- | ------------- | --------------------- |
 | **David Chalmers** | NYU | Strong/Weak emergence distinction |
 | **Sean Carroll** | Johns Hopkins | Physics of emergence, Carroll-Parola taxonomy |
 | **Partanen & Tulkki** | Aalto University | Spacetime dimension field (2025) |

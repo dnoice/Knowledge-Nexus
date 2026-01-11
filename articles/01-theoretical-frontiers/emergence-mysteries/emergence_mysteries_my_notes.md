@@ -8,7 +8,7 @@
     - Date: 2025-01-02
     - Update: Thursday, January 02, 2025
     - Author: Dennis 'dnoice' Smaltz
-    - A.I. Acknowledgement: Anthropic - Claude Opus 4.5
+    - A.I. Acknowledgement: Google Deep Mind - Gemini 3 Pro
     - Signature: ︻デ═─── ✦ ✦ ✦ | Aim Twice, Shoot Once!
 
 ✒ Description:
@@ -110,7 +110,7 @@ TYPE-3: AUGMENTED
 The taxonomy resolves the weak/strong debate by recognizing **five distinct modes**:
 
 | Type | Predictable? | Compressible? | Novel Laws? | Example Domain |
-|------|-------------|---------------|-------------|----------------|
+| ------ | ------------- | --------------- | ------------- | ---------------- |
 | 0 | Yes | N/A | No | Thermodynamic equilibrium |
 | 1a | Yes | Yes | No | Classical thermodynamics |
 | 1b | In principle | No | No | Chaos theory, weather |
@@ -166,7 +166,7 @@ EI(macro) > EI(micro) → Causal Emergence!
 ### System Classification
 
 | Type | Causal Distribution | Interpretation |
-|------|---------------------|----------------|
+| ------ | --------------------- | ---------------- |
 | **Bottom-heavy** | Power at micro-scale | Reductionism works |
 | **Top-heavy** | Power at macro-scale | Emergence dominates |
 | **Complex** | Distributed across scales | Multiple valid descriptions |
@@ -185,7 +185,7 @@ EI(macro) > EI(micro) → Causal Emergence!
 **The Aalto University Breakthrough (May 2025):**
 
 | Traditional View | New View |
-|-----------------|----------|
+| ----------------- | ---------- |
 | Spacetime is fundamental | Spacetime is emergent |
 | Gravity = curvature of manifold | Gravity = gauge theory from symmetries |
 | Can't quantize gravity | Can renormalize (first order) |
@@ -302,7 +302,7 @@ LIVING SYSTEM =
 **IIT vs GNWT (2025 Results):**
 
 | Finding | Winner |
-|---------|--------|
+| --------- | -------- |
 | Location of content | IIT (posterior) |
 | Synchronization pattern | GNWT (front-visual) |
 | Sustained activity | Neither (contradicts both) |
@@ -320,7 +320,7 @@ LIVING SYSTEM =
 **The Debate:**
 
 | Position | Argument |
-|----------|----------|
+| ---------- | ---------- |
 | **Real** | "Rare-token neurons" show structural reconfiguration |
 | **Mirage** | Discrete metrics create apparent jumps; continuous metrics are smooth |
 
@@ -478,7 +478,7 @@ Holographic principle    ←→   Boundary/bulk correspondence
 ## 📚 Terminology Glossary
 
 | Term | Definition | Context |
-|------|------------|---------|
+| ------ | ------------ | --------- |
 | **Weak Emergence** | Macro-behavior derivable from micro-simulation | Philosophy |
 | **Strong Emergence** | Macro-behavior NOT derivable; new laws required | Philosophy |
 | **Downward Causation** | Macro-level influencing micro-level behavior | Metaphysics |

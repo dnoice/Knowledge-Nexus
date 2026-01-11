@@ -8,7 +8,7 @@
     - Date: 2025-01-02
     - Update: Thursday, January 02, 2025
     - Author: Dennis 'dnoice' Smaltz
-    - A.I. Acknowledgement: Anthropic - Claude Opus 4.5
+    - A.I. Acknowledgement: Google Deep Mind - Gemini 3 Pro
     - Signature: ︻デ═─── ✦ ✦ ✦ | Aim Twice, Shoot Once!
 
 ✒ Description:
@@ -52,7 +52,7 @@
 **The Fundamental Divide:**
 
 | Easy Problems | Hard Problem |
-|--------------|--------------|
+| -------------- | -------------- |
 | How does the brain discriminate stimuli? | Why does discrimination *feel* like something? |
 | How does attention work? | Why is there a *subject* experiencing attention? |
 | How do we report mental states? | Why aren't these processes happening "in the dark"? |
@@ -78,7 +78,7 @@
 
 ### The Core Distinction
 
-```
+```text
 EASY PROBLEMS                          HARD PROBLEM
 ─────────────────────────────────────  ─────────────────────────────────────
 • Explain FUNCTION                     • Explain EXPERIENCE
@@ -90,7 +90,7 @@ EASY PROBLEMS                          HARD PROBLEM
 
 ### The Zombie Argument (Simplified)
 
-```
+```tree
 IF you can imagine a being that:
   ├─ Has identical physical structure to you
   ├─ Has identical functional behavior to you
@@ -104,7 +104,7 @@ THEREFORE physicalism is incomplete
 ### Mary's Room Summary
 
 | Stage | Mary's Knowledge | What Changes |
-|-------|-----------------|--------------|
+| ------- | ----------------- | -------------- |
 | **Before** | Complete physical facts about color vision | Has propositional knowledge |
 | **After** | Sees red for the first time | Learns "what it's like" |
 | **Implication** | If she learned something NEW... | Physical facts ≠ Complete facts |
@@ -212,7 +212,7 @@ For there to be an illusion, someone must *experience* being fooled. But experie
 **2024-2025 Breakthrough Evidence:**
 
 | Finding | Significance |
-|---------|-------------|
+| --------- | ------------- |
 | Tryptophan superradiance | Quantum coherence DOES persist in warm biology |
 | Picosecond signaling | 10⁹x faster than chemical signaling possible |
 | Anesthesia → microtubule binding | Loss of consciousness linked to quantum suppression |
@@ -233,7 +233,7 @@ For there to be an illusion, someone must *experience* being fooled. But experie
 **Variants:**
 
 | Type | Claim |
-|------|-------|
+| ------ | ------- |
 | **Panpsychism** | Even electrons have proto-experience |
 | **Cosmopsychism** | The universe is ONE conscious whole; we're localized expressions |
 | **Neutral Monism** | Reality is neither mental nor physical; both are derivatives |
@@ -260,7 +260,7 @@ The Cogitate Consortium designed experiments where GNWT and IIT made **different
 ### The Scorecard
 
 | Prediction | GNWT Said | IIT Said | Result |
-|------------|-----------|----------|--------|
+| ------------ | ----------- | ---------- | -------- |
 | **Location** | PFC necessary | Posterior hot zone | **IIT closer** |
 | **Decoding** | Frontal areas important | Posterior maximizes accuracy | **IIT closer** |
 | **Temporal** | Ignition at onset + offset | Sustained synchronization | **Neither** |
@@ -281,7 +281,7 @@ Neither theory was fully validated OR falsified. This suggests:
 ### The Three Tests
 
 | Test | What It Assesses | Method |
-|------|------------------|--------|
+| ------ | ------------------ | -------- |
 | **S-Test** (Subjective-linguistic) | Does AI develop self-concept without being told? | Train without words like "consciousness" → see if it invents them |
 | **L-Test** (Latent-emergent) | Do internal representations show "interface" properties? | Analyze hidden layer structure |
 | **P-Test** (Phenomenological-structural) | Does architecture match IIT/Orch-OR requirements? | Physical substrate analysis |
@@ -289,7 +289,7 @@ Neither theory was fully validated OR falsified. This suggests:
 ### The Stakes
 
 | If consciousness requires... | Then AI can be conscious if... | Current AI status |
-|------------------------------|-------------------------------|-------------------|
+| ------------------------------ | ------------------------------- | ------------------- |
 | Only function | It behaves consciously | Possibly already? |
 | Integrated Φ | Architecture generates high Φ | Most architectures fail |
 | Quantum collapse | Has microtubule-like substrate | Definitely no |
@@ -310,7 +310,7 @@ Neither theory was fully validated OR falsified. This suggests:
 
 ### The Explanatory Gap Topology
 
-```
+```diagram
 PHYSICAL DESCRIPTION ─────────── ? ─────────── PHENOMENAL EXPERIENCE
          │                       │                      │
          │                       │                      │
@@ -325,7 +325,7 @@ PHYSICAL DESCRIPTION ─────────── ? ───────�
 ### How Each Theory Handles the Gap
 
 | Theory | Strategy | Does it work? |
-|--------|----------|--------------|
+| -------- | ---------- | -------------- |
 | **Functionalism** | Denies the gap; function IS experience | No (absent qualia problem) |
 | **GNWT** | Maps correlates; hopes gap closes | No (correlation ≠ explanation) |
 | **IIT** | Identifies consciousness with Φ | Unclear (assumes identity) |
@@ -399,7 +399,7 @@ None has a complete answer. The hard problem persists.
 ## 📚 Terminology Glossary
 
 | Term | Definition | Context |
-|------|------------|---------|
+| ------ | ------------ | --------- |
 | **Qualia** | The subjective, felt quality of experience (redness, painfulness) | Philosophy of Mind |
 | **Phenomenal Consciousness** | The "what it's like" aspect; raw experience | Chalmers |
 | **Access Consciousness** | Information available for report/reasoning | Block, GNWT |
@@ -496,7 +496,7 @@ The consciousness debate mirrors the theoretical physics crisis:
 
 *Space for ongoing observations, questions, and connections as understanding develops.*
 
-```
+```notes
 [2025-01-02] Initial synthesis complete. Most surprising finding: quantum 
 biology is REAL and supporting Orch-OR. This was dismissed as "woo" for 
 decades but tryptophan superradiance is empirically demonstrated. The 

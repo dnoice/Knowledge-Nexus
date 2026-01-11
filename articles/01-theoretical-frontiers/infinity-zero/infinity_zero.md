@@ -8,7 +8,7 @@
     - Date: 2026-01-02
     - Update: Thursday, January 02, 2026
     - Author: Dennis 'dnoice' Smaltz
-    - A.I. Acknowledgement: Anthropic - Claude Opus 4.5
+    - A.I. Acknowledgement: Google Deep Mind - Gemini 3 Pro
     - Signature: ︻デ═─── ✦ ✦ ✦ | Aim Twice, Shoot Once!
 
 ✒ Description:
@@ -73,7 +73,7 @@ Surreal numbers are generated through a recursive inductive process defined by p
 The infinitesimal ε, defined in generation ω, represents a positive quantity smaller than any positive real number but strictly greater than zero. This is not merely a symbolic limit as in standard calculus but a distinct numerical entity. In the surreal field, the product of ε and ω can be defined, as can more complex forms such as √ω or ω⁻¹. The structural utility of the surreal field is its ability to realize all other ordered fields, including the Levi-Civita field and the hyperreal numbers, as subfields.
 
 | Surreal Generation | Numerical Entity | Mathematical Definition | Philosophical Implication |
-|-------------------|------------------|------------------------|--------------------------|
+| ------------------- | ------------------ | ------------------------ | -------------------------- |
 | S₀ | 0 | { \| } | The primordial void |
 | S₁ | 1, −1 | { 0 \| }, { \| 0 } | Emergence of duality |
 | Sω | ω, ε | { 0, 1, 2,... \| }, { 0 \| 1, ½, ¼,... } | Transfinite/infinitesimal birth |
@@ -122,7 +122,7 @@ $$\rho_{vac}^{obs} \sim 10^{-47} \text{ GeV}^4$$
 The ratio between the theoretical and observed values yields a discrepancy of ~10¹²⁰. To reconcile these values within the framework of general relativity, the "bare" cosmological constant must be fine-tuned to at least 120 decimal places to cancel the quantum vacuum contributions.
 
 | Parameter | Theoretical Prediction (QFT) | Observed Value (Cosmology) | Discrepancy (Orders of Mag) |
-|-----------|------------------------------|---------------------------|----------------------------|
+| ----------- | ------------------------------ | --------------------------- | ---------------------------- |
 | Energy Density (ρ_vac) | 10¹¹⁰ GeV⁴ | 10⁻⁴⁷ GeV⁴ | 120 |
 | Length Scale (L) | Planck Length (10⁻³⁵ m) | Hubble Scale (10²⁶ m) | 61 |
 | Pressure (p_vac) | Positive (Theoretical) | Negative (Observed) | Sign Reversal |
@@ -156,7 +156,7 @@ A major challenge to any theory that eliminates ZPE is the Casimir effect, which
 The framework predicts that the Casimir force will exhibit a strong dependence on ambient temperature and should vanish as T → 0. This prediction is being tested in late 2025 and 2026. If confirmed, it would signify a complete departure from the QFT view of the vacuum as a fluctuating medium, replacing it with a zero-energy geometric state.
 
 | Feature | Standard QFT Paradigm | Causal Lattice Paradigm (2025) |
-|---------|----------------------|-------------------------------|
+| --------- | ---------------------- | ------------------------------- |
 | Spacetime Background | Smooth Continuum | Discrete Causal Units |
 | Ground State Energy | ½ℏω (Non-zero) | Exactly Zero |
 | Casimir Effect Origin | Virtual Vacuum Fluctuations | Thermal Radiation Pressure |
@@ -194,7 +194,7 @@ The transition between aeons is facilitated by the fact that in both the extreme
 The "Infinity" of an expanding universe can be "squeezed" down to a finite size via a conformal transformation, while the "Zero" size of the Big Bang can be "stretched" out. The matching conditions between aeons require the Weyl curvature—the part of the spacetime curvature representing gravitational fields rather than matter density—to be exactly zero at the Big Bang crossover surface. This **Weyl Curvature Hypothesis** ensures the low-entropy, uniform start of each aeon.
 
 | CCC Aeon Phase | Physical State | Curvature Status | Conformal Role |
-|----------------|----------------|------------------|----------------|
+| ---------------- | ---------------- | ------------------ | ---------------- |
 | Big Bang | High Temperature, Massless | Weyl Curvature = 0 | Crossover Surface |
 | Expansion | Matter-Dominated | Increasing Curvature | Dynamic Evolution |
 | Late Future | Massless, Low Entropy | Conformally Smooth | Squeezed Future Infinity |
@@ -217,7 +217,7 @@ The rapid advancement of these theories is documented in a series of high-level 
 On November 24, 2025, the US government launched the **"Genesis Mission"** by Executive Order, aimed at leveraging 2026-generation AI models (such as GPT-6 and Gemini 4) to solve foundational science challenges. The mission's primary objectives include the discovery of near-infinite energy sources and the reconciliation of quantum field theory with cosmological data.
 
 | Date | Milestone | Lead Partners | Objectives |
-|------|-----------|---------------|------------|
+| ------ | ----------- | --------------- | ------------ |
 | 24 Nov 2025 | Mission Launch | US DOE, White House | Resolve 20 national science challenges |
 | 18 Dec 2025 | Industry MOUs | OpenAI, Google, Anthropic | AI-driven in silico research meetings |
 | 23 Jan 2026 | Challenge List | DOE Labs | Identify vacuum energy scaling laws |
@@ -230,7 +230,7 @@ The Genesis Mission integrates exabytes of physical world data with "AI scientis
 The Southern California Strings Seminar (SCSS) and the Mani L. Bhaumik Institute at UCLA have emerged as centers for discussing "String Theory and the Dark Sector." Notable presentations in late 2025 have focused on the "Fading Dark Sector" and the role of "Entropic Order" in the evolution of gauge theories.
 
 | Seminar Series | Institution | Recent Topics | Key Researchers |
-|----------------|-------------|---------------|-----------------|
+| ---------------- | ------------- | --------------- | ----------------- |
 | TEP Seminars | UCLA | Non-invertible Symmetries | Diego Delmastro, Adar Sharon |
 | HEP Seminars | Caltech | Dark Radiation from the Axiverse | Christopher Dessert |
 | Strings Seminar | USC | Anomalies of Defect Parameters | Brandon Rayhaun, Matthew Heydeman |
@@ -251,7 +251,7 @@ In Indian philosophy, particularly within Kashmir Shaivism and Advaita Vedanta, 
 This reframes the vacuum not as a nihilistic absence, but as the condition of possibility for form. The Chāndogya Upaniṣad utilizes the seed analogy: just as the tiny, seemingly empty interior of a seed contains the entire potential for a massive Nyagrodha tree, the "Infinite Zero" of the vacuum contains the entire complexity of the universe. This philosophical perspective is increasingly cited by theoretical physicists searching for a "qualitative" understanding of the vacuum that transcends numerical discrepancies.
 
 | Philosophical Concept | Tradition | View of "The Void" | Physical Parallel |
-|----------------------|-----------|-------------------|-------------------|
+| ---------------------- | ----------- | ------------------- | ------------------- |
 | Śūnyatā | Buddhism | Emptiness of inherent existence | Field Interdependence |
 | Wuji | Taoism | Undifferentiated source of all | Quantum Vacuum Ground State |
 | Infinite Zero | Shaivism | Vibrant, aware potentiality | Hilbert Space Potential |

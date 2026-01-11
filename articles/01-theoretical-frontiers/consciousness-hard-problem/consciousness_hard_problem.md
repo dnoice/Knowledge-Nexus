@@ -8,7 +8,7 @@
     - Date: 2025-01-02
     - Update: Thursday, January 02, 2025
     - Author: Dennis 'dnoice' Smaltz
-    - A.I. Acknowledgement: Anthropic - Claude Opus 4.5
+    - A.I. Acknowledgement: Google Deep Mind - Gemini 3 Pro
     - Signature: ︻デ═─── ✦ ✦ ✦ | Aim Twice, Shoot Once!
 
 ✒ Description:
@@ -107,7 +107,7 @@ The difficulty arises because experience does not seem to fit the reductive mode
 ### 1.3 The Problem Category Framework
 
 | Category | Key Attributes | Explanatory Goal | Mechanism of Study |
-|----------|---------------|------------------|-------------------|
+| ---------- | --------------- | ------------------ | ------------------- |
 | **Easy Problems** | Functionally definable; structural; behavioral | To explain how a system performs a task (e.g., attention, report) | Reductive neural/computational modeling |
 | **The Hard Problem** | Phenomenal; subjective; qualitative | To explain why physical processes are accompanied by "what-it-is-likeness" | Requires new metaphysical or "extra-physical" bridges |
 
@@ -163,7 +163,7 @@ If Mary learns a new fact despite already knowing all the physical facts, then t
 The Knowledge Argument has sparked decades of debate, leading to several distinct physicalist responses designed to preserve the materialist worldview:
 
 | Response | Core Argument | Nature of Learning |
-|----------|--------------|-------------------|
+| ---------- | -------------- | ------------------- |
 | **Ability Hypothesis** | Mary learns a *skill*, not a fact | Procedural learning (e.g., "knowing how") |
 | **Acquaintance Hypothesis** | Mary becomes directly *familiar* with a known state | Direct experiential contact |
 | **New Knowledge/Old Fact** | Mary represents an old physical fact in a *new way* | Conceptual re-representation |
@@ -219,7 +219,7 @@ The results of the Cogitate adversarial collaboration, published in *Nature* in 
 **Key Findings:**
 
 | Prediction Variable | GNWT Prediction | IIT Prediction | Observed Result (2024-2025) |
-|--------------------|-----------------|----------------|----------------------------|
+| -------------------- | ----------------- | ---------------- | ---------------------------- |
 | Primary Location | Prefrontal Cortex (PFC) | Posterior "Hot Zone" | **Favored Posterior "Hot Zone"** |
 | Neural Signature | Brief "ignition" events | Sustained synchronization | Neither fully supported; synchronization inconsistent |
 | Decoding Accuracy | Requires PFC for content | Maximized in posterior areas | **Content decoded primarily from posterior areas** |
@@ -309,7 +309,7 @@ Once a piece of information enters "consciousness" (reaches a state of global av
 ### 4.4 Illusionist Concepts Summary
 
 | Concept | Definition/Description | Implications |
-|---------|----------------------|--------------|
+| --------- | ---------------------- | -------------- |
 | **User Illusion** | Consciousness as a simplified graphical interface for the brain | Mental states are "helpful fictions" |
 | **The Illusion Problem** | The task of explaining why we have beliefs about qualia | Replaces the Hard Problem with a functional "easy" problem |
 | **Non-Identification** | The inability to distinguish between change in quale vs. change in judgment | Undermines the idea of infallible introspection |
@@ -365,7 +365,7 @@ However, experimental breakthroughs in 2024 and 2025 have significantly altered 
 Led by Philip Kurian and the **Quantum Biology Laboratory (QBL)** at Howard University, research has provided empirical evidence for collective quantum effects in biological architectures.
 
 | Research Milestone | Year | Finding | Significance |
-|-------------------|------|---------|--------------|
+| ------------------- | ------ | --------- | -------------- |
 | J. Phys. Chem. Study | 2024 | Confirmation of UV superradiance in tryptophan networks | Proves quantum effects can persist in "warm and noisy" biological environments |
 | QBL/Kurian Results | 2025 | Picosecond-scale information transfer in cytoskeletal filaments | Suggests cells use "quantum fiber optics" for signaling |
 | Anesthesia Study | 2023-2024 | Anesthetics damp excitonic propagation in microtubules | Links loss of consciousness to the suppression of quantum effects |
@@ -414,7 +414,7 @@ Russellian monists posit that these intrinsic properties, or **"quiddities"**, a
 ### 6.2 Variants of Monism
 
 | Theory | Core Tenet | Solution to Hard Problem | Major Challenge |
-|--------|-----------|-------------------------|-----------------|
+| -------- | ----------- | ------------------------- | ----------------- |
 | **Panpsychism** | Mind is a fundamental, ubiquitous feature | Consciousness is "built-in" to the fabric of reality | The Combination Problem |
 | **Russellian Monism** | Physics describes structure; consciousness is the intrinsic nature | Closes the gap by identifying consciousness as the substance of physics | Hard to empirically distinguish from physicalism |
 | **Neutral Monism** | Reality is a third, neutral "stuff" | Mind and matter are two perspectives on the same base | Defining the "neutral" substance |
@@ -468,7 +468,7 @@ IIT proponents argue that most current AI architectures, based on "external and 
 To address this uncertainty, researchers have introduced the **"SLP-tests"** (Subjective-linguistic, Latent-emergent, and Phenomenological-structural) to reframe the question of artificial consciousness:
 
 | Test | Description | What It Assesses |
-|------|-------------|------------------|
+| ------ | ------------- | ------------------ |
 | **S-Test** (Subjective-linguistic) | "Boxing in" an AI during development to observe if it independently develops concepts of "subjectivity" without those terms in training data | Emergent self-concept |
 | **L-Test** (Latent-emergent) | Assesses whether internal representations show holistic "interface" properties associated with human consciousness | Representational structure |
 | **P-Test** (Phenomenological-structural) | Evaluates if physical architecture mirrors the integrated causal structures predicted by theories like IIT | Physical substrate requirements |
@@ -491,7 +491,7 @@ As of late 2025, the study of consciousness remains at a **crossroads** where ph
 ### 8.1 Key Findings Summary
 
 | Domain | Status | Implication |
-|--------|--------|-------------|
+| -------- | -------- | ------------- |
 | **Grand Theories** | Neither GNWT nor IIT fully confirmed | Consciousness may be more multifaceted than single models capture |
 | **Neural Localization** | Posterior "hot zone" favored over PFC | Intelligence ≠ Consciousness |
 | **Quantum Biology** | Tryptophan superradiance confirmed | Biological substrate for quantum consciousness more plausible |

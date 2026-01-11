@@ -8,7 +8,7 @@
     - Date: 2025-01-02
     - Update: Thursday, January 02, 2025
     - Author: Dennis 'dnoice' Smaltz
-    - A.I. Acknowledgement: Anthropic - Claude Opus 4.5
+    - A.I. Acknowledgement: Google Deep Mind - Gemini 3 Pro
     - Signature: ︻デ═─── ✦ ✦ ✦ | Aim Twice, Shoot Once!
 
 ✒ Description:
@@ -120,7 +120,7 @@ The discourse was refined by the introduction of the **Carroll-Parola taxonomy**
 This framework moves beyond the binary of weak/strong emergence to address the **information-theoretic complexity** of the "emergence map" Φ that relates states across different scales.
 
 | Category | Mapping Complexity (Φ) | Characteristics | Examples |
-|----------|----------------------|-----------------|----------|
+| ---------- | ---------------------- | ----------------- | ---------- |
 | **Type-0 (Featureless)** | Null/Identity | No distinct macro-level properties emerge | Ideal gas in equilibrium |
 | **Type-1a (Direct)** | Algorithmically Simple | Macro-behavior easily deduced via compression | Temperature, pressure |
 | **Type-1b (Incompressible)** | Algorithmically Complex | Macro appears novel due to incompressibility | Chaotic systems, weather |
@@ -235,7 +235,7 @@ In strongly correlated systems, interactions become so complex that the system d
 ### 3.5 Condensed Matter Emergence Summary
 
 | Phenomenon | Micro-Level Component | Emergent Macro-Property | Mechanism |
-|------------|----------------------|------------------------|-----------|
+| ------------ | ---------------------- | ------------------------ | ----------- |
 | **Superconductivity** | Individual Electrons | Zero Resistance | Cooper pair condensation |
 | **Magnetism** | Atomic Spins | Net Magnetic Moment | Spontaneous symmetry breaking |
 | **Topological Insulators** | Electron Wavefunctions | Surface Conduction | Global topological protection |
@@ -280,7 +280,7 @@ CE 2.0 analyzes the **"full multiscale structure"** of a system, identifying "em
 **New Information-Theoretic Measures:**
 
 | Measure | Description |
-|---------|-------------|
+| --------- | ------------- |
 | **Path Entropy (S_path)** | How uniformly causal contributions are distributed across hierarchy levels |
 | **Row Negentropy (S_row)** | Differentiation of causal contributions within a single scale level |
 
@@ -376,7 +376,7 @@ The emergence of complexity in biological systems is being quantified using a me
 ### 6.5 Capacities of Minimally Living Systems
 
 | Capacity | Description |
-|----------|-------------|
+| ---------- | ------------- |
 | **Boundary Maintenance** | Maintaining membrane or spatial enclosure (e.g., lipid bilayer) |
 | **Metabolism** | Capturing and transforming energy to sustain internal order |
 | **Dynamic Stability** | Resisting environmental perturbations through feedback loops |
@@ -430,7 +430,7 @@ The two dominant theories were tested in a massive landmark study:
 **Results (Mixed):**
 
 | Finding | Favored Theory |
-|---------|---------------|
+| --------- | --------------- |
 | Location of conscious content | **IIT** (posterior cortex) |
 | High-frequency synchronization front-to-visual | **GNWT** |
 | Sustained activity throughout experience | **Neither** (contradicts GNWT's peak prediction) |
@@ -523,7 +523,7 @@ The **2025 Watch List** emphasizes:
 The **World Economic Forum's 2025 report** identifies "integrative advances" where emergence is harnessed:
 
 | Technology | Emergent Benefit | Sector |
-|------------|-----------------|--------|
+| ------------ | ----------------- | -------- |
 | **Structural Battery Composites** | "Massless" energy storage via material integration | Aerospace/EVs |
 | **Green Nitrogen Fixation** | Low-carbon ammonia production from air | Agriculture |
 | **Engineered Living Therapeutics** | On-demand medicine production inside body | Healthcare |

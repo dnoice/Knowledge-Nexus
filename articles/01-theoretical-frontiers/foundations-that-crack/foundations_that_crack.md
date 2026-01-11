@@ -8,7 +8,7 @@
     - Date: 2025-01-02
     - Update: Thursday, January 02, 2025
     - Author: Dennis 'dnoice' Smaltz
-    - A.I. Acknowledgement: Anthropic - Claude Opus 4.5
+    - A.I. Acknowledgement: Google Deep Mind - Gemini 3 Pro
     - Signature: ︻デ═─── ✦ ✦ ✦ | Aim Twice, Shoot Once!
 
 ✒ Description:
@@ -84,7 +84,7 @@ The expansion rate of the universe, characterized by the Hubble constant (H₀),
 **The Discrepancy:**
 
 | Source | Method | H₀ Value |
-|--------|--------|----------|
+| -------- | -------- | ---------- |
 | Planck Satellite (CMB) | Early Universe / ΛCDM Model | ~67.4 km s⁻¹ Mpc⁻¹ |
 | SH0ES Collaboration | Distance Ladder (Cepheids + Type Ia SNe) | ~73.0 km s⁻¹ Mpc⁻¹ |
 
@@ -134,7 +134,7 @@ If dark energy is indeed dynamical, it:
 Another cracking foundation in cosmology involves the mass of neutrinos.
 
 | Measurement Source | Constraint |
-|--------------------|------------|
+| -------------------- | ------------ |
 | Terrestrial experiments (oscillation studies) | ∑mν ≳ 0.06 eV (lower limit) |
 | DESI DR2 + Planck CMB (ΛCDM framework) | ∑mν < 0.064 eV (upper limit at 95% CL) |
 
@@ -145,7 +145,7 @@ Attempts to alleviate this tension by allowing for dynamical dark energy or modi
 **Cosmological Parameters Summary Table:**
 
 | Parameter | Measurement Source | Value/Estimate | Tension Significance |
-|-----------|-------------------|----------------|---------------------|
+| ----------- | ------------------- | ---------------- | --------------------- |
 | Hubble Constant (H₀) | Planck 2018 (CMB + ΛCDM) | 67.36 ± 0.54 km/s/Mpc | Baseline Prediction |
 | Hubble Constant (H₀) | SH0ES (Supernovae/Local) | 73.04 ± 1.04 km/s/Mpc | ≥5σ vs. Planck |
 | S₈ (Structure Growth) | Weak Lensing / Clustering | ~0.77–0.80 | 2–3σ vs. Planck |
@@ -175,7 +175,7 @@ This implies that the Standard Model is either:
 **Higgs Boson Properties:**
 
 | Property | Measured Value/Status | Standard Model Prediction |
-|----------|----------------------|---------------------------|
+| ---------- | ---------------------- | --------------------------- |
 | Mass (mH) | 125.38 ± 0.14 GeV | Free Parameter |
 | Quantum Spin (J) | 0 | 0 (Only scalar boson) |
 | Electric Charge (Q) | 0 | 0 |
@@ -276,7 +276,7 @@ This creates a boundary between:
 **Foundational Limits Summary:**
 
 | Concept | Foundational Limit Identified | Implications for Science |
-|---------|------------------------------|-------------------------|
+| --------- | ------------------------------ | ------------------------- |
 | Gödel's Incompleteness | Unprovable truths in consistent systems | Limits the "Theory of Everything" |
 | Tarski's Undefinability | Inability to name all real numbers | Linguistic limits on modeling |
 | Chaitin's Omega (Ω) | Definable but non-computable | Algorithmic randomness in laws |
@@ -366,7 +366,7 @@ This allows for:
 **Neuroimaging Research:**
 
 | Technique | Application in Consciousness Studies | Primary Advantage |
-|-----------|-------------------------------------|-------------------|
+| ----------- | ------------------------------------- | ------------------- |
 | Magnetoencephalography (MEG) | Measuring magnetic fields of brain activity | High temporal resolution |
 | Functional MRI (fMRI) | Mapping cerebral blood flow (BOLD signals) | High spatial resolution for connectivity |
 | Diffusion Tensor Imaging (DTI) | Studying structural relation to consciousness | Mapping white matter pathways |
@@ -455,7 +455,7 @@ These are no longer providing a stable base for progress.
 ### Key Findings Summary
 
 | Domain | Crisis | Implication |
-|--------|--------|-------------|
+| -------- | -------- | ------------- |
 | Cosmology | Hubble Tension + DESI results | Universe more dynamic than Λ allows |
 | Particle Physics | Absence of SUSY + String Theory stagnation | Reductionist path may have reached its limit |
 | Mathematics | Gödel + Chaitin | Inherent incompleteness and algorithmic randomness |
